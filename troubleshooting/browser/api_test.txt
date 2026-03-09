@@ -5,7 +5,7 @@ curl -w "%{time_total}\n" -o /dev/null -s https://subdomain.website.com/api/v3/e
 
 
 #################### API TEST WITHOUT USING DNS ####################
-ping subdomain.website.com
+nslookup subdomain.website.com
 curl --resolve subdomain.website.com:443:104.98.32.7 https://subdomain.website.com/api/v3/exams/current -w "%{time_total}\n" -o /dev/null -s
 
 
