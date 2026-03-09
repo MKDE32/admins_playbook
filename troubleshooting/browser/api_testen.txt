@@ -1,1 +1,1 @@
-curl -w "%{time_total}\n" -o /dev/null -s https://academy.hackthebox.com/api/v3/exams/current
+curl -w "%{time_total}\n" -o /dev/null -s https://subdomain.website.com/api/v3/exams/current
