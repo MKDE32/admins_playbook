@@ -1,0 +1,16 @@
+
+fix mbr
+bootrec /fixmbr
+
+fix bootsector
+bootrec /fixboot
+
+lists win installs which are not found in bootmanager
+bootrec /scanos
+
+
+
+
+
+
+
