@@ -12,9 +12,9 @@ select volume 1
 assign letter=S
 exit
 
-if not possible to repair try
+if not possible to repair try the following and repeat sfc..
+DISM /Image:C:\ /Cleanup-Image /scanhealth
 DISM /Image:C:\ /Cleanup-Image /RestoreHealth
-
 
 
 
