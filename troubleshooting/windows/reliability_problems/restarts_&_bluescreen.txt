@@ -1,11 +1,11 @@
 DEACTIVATE RESTARTING
 system > extended system settings > start & recover > deactivate automatic restart
-IF YOU GET A BLUESCREEN YOU CAN NOW SEE THE ERROR MESSAGE AND GOOGLE IT.
+GOOGLE THE ERROR
 
 IF THAT ARE NOT ENOUGH INFOS YOU CAN USE BLUESCREENVIEW
 system > extended system settings > start & recover > settings > save debug info > small memory image
-
-
+GOOGLE THE ERROR
+DEINSTALL THE SOFT OR HARDWARE WHICH MAKES SUPPOSEDLY THE PROBLEM
 
 
 
