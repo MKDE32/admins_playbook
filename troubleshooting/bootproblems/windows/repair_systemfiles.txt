@@ -1,0 +1,31 @@
+start diskpart
+diskpart
+
+show volume chars
+list volume
+
+repair system files
+sfc /offbootdir=C:\ /offwindir=C:\windows /scannow
+
+if not possible to repair try
+DISM /Image:C:\ /Cleanup-Image /RestoreHealth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
