@@ -1,0 +1,20 @@
+SYSTEMINTEGRITY REPORT
+perfmon /report
+
+RELIABILITY HISTORY
+perfmon /rel
+
+EVENT REPORTS
+eventvwr
+then search for the right report on the left side.
+
+
+
+
+
+
+
+
+
+
+
