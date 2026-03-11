@@ -4,14 +4,13 @@ diskpart
 show volume letter
 list volume
 
-if the command below doesnt work and offbootdir has no volume letter
+repair system files
+sfc /offbootdir=C:\ /offwindir=C:\windows /scannow
+offbootdir is the system-reserved-partition, if the command doesnt work and offbootdir has no volume letter get it a volume letter
 diskpart
 select volume 1
 assign letter=S
 exit
-
-repair system files
-sfc /offbootdir=C:\ /offwindir=C:\windows /scannow
 
 if not possible to repair try
 DISM /Image:C:\ /Cleanup-Image /RestoreHealth
