@@ -1,0 +1,34 @@
+
+net stop wuauserv
+net stop cryptsvc
+net stop bits
+net stop msiserver
+
+ren %windir%\softwaredistribution softwaredistribution.old
+ren %windir%\system32\catroot2 catroot2.old
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
