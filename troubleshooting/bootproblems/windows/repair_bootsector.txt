@@ -8,8 +8,8 @@ bootrec /fixboot
 lists win installs which are not found in bootmanager
 bootrec /scanos
 
-
-
+adds missing installs to bootmanager
+bootrec /rebuildbcd
 
 
 
