@@ -1,15 +1,20 @@
 start diskpart
 diskpart
 
-show volume chars
+show volume letter
 list volume
+
+if the command below doesnt work and offbootdir has no volume letter
+diskpart
+select volume 1
+assign letter=S
+exit
 
 repair system files
 sfc /offbootdir=C:\ /offwindir=C:\windows /scannow
 
 if not possible to repair try
 DISM /Image:C:\ /Cleanup-Image /RestoreHealth
-
 
 
 
