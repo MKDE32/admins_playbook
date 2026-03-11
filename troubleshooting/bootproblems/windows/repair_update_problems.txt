@@ -1,0 +1,31 @@
+LIST VOLUMES
+diskpart
+list volume
+
+SWITCH WIN PARTITION
+cd c:\
+
+SHOW UPDATES
+dism /image:c:\ /get-packages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
