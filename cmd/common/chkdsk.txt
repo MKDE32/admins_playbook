@@ -1,0 +1,10 @@
+chkdsk.txt c: /f          fixes logical file system errors
+chkdsk.txt c: /r          recovers bad sectors, analyses physical disk errors
+
+
+
+
+
+
+
+  
