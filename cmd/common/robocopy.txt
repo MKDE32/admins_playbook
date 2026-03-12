@@ -1,0 +1,10 @@
+robocopy c:\directory c:\directory
+
+
+
+
+
+
+
+
+
