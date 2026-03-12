@@ -1,0 +1,21 @@
+diskpart
+
+list disk
+select disk 0
+
+list partition
+select partition 1
+
+delete partition
+
+create partition primary
+
+clean all
+
+format fs=ntfs
+
+
+
+
+
+
