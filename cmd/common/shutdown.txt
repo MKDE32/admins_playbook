@@ -1,0 +1,22 @@
+shutdown /r
+
+/s          shutdown
+/t 1800     countdown
+/r          restart
+/f          force
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
