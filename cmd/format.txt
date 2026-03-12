@@ -1,0 +1,18 @@
+format C:
+
+
+
+/q          quick format
+/fs:ntfs    using ntfs
+
+
+
+
+
+
+
+
+
+
+
+
