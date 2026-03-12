@@ -1,10 +1,9 @@
-robocopy c:\directory c:\directory
+robocopy <Source> <Destination> [File(s)] [Options]
+robocopy C:\Data D:\Backup *.pdf
 
 
 
-
-
-
-
-
+/e        everything inclusive subfolders
+/mir      exact copy of a folder
+/move     only move, not copy
 
