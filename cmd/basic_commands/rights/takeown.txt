@@ -1,0 +1,5 @@
+takeown /f bla.txt
+
+/f        takes ownership over the file
+
+
