@@ -1,0 +1,16 @@
+%windir%	          Windows-Installationsordner	C:\Windows
+%SystemRoot%	      Systemverzeichnis von Windows	C:\Windows
+%SystemDrive%	      Laufwerk, auf dem Windows installiert ist	C:
+%PATH%	            Liste von Ordnern, in denen Programme automatisch gesucht werden	C:\Windows\System32;...
+%TEMP%	            Temporärer Ordner für aktuelle Benutzerprozesse	C:\Users\User\AppData\Local\Temp
+%TMP%	              Alternative Variable für temporäre Dateien	meist gleich wie %TEMP%
+%USERPROFILE%	      Benutzerprofilordner	C:\Users\User
+%USERNAME%	        aktueller Benutzername	User
+%HOMEPATH%	        Pfad zum Benutzerordner	\Users\User
+%HOMEDRIVE%	        Laufwerk des Benutzerordners	C:
+%APPDATA%	          Roaming-AppData-Ordner für Programmeinstellungen	C:\Users\User\AppData\Roaming
+%LOCALAPPDATA%	    Lokale Anwendungsdaten	C:\Users\User\AppData\Local
+%PROGRAMFILES%	    Installationsordner für Programme (64-bit)	C:\Program Files
+%PROGRAMFILES(x86)%	Installationsordner für 32-bit Programme	C:\Program Files (x86)
+%PUBLIC%	          Öffentlicher Benutzerordner	C:\Users\Public
+%COMPUTERNAME%	    Name des Computers	z. B. DESKTOP-123ABC
