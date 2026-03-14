@@ -1,0 +1,42 @@
+##### OS #####
+msconfig
+msinfo32
+regedit
+rstrui
+eventvwr
+tpm.msc
+uac
+
+
+
+##### AUTORUN #####
+shell:startup
+shell:common startup
+
+
+
+##### OFFICE #####
+winword /safe
+winword.exe /a
+excel.exe /safe
+powerpoint.exe /safe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
