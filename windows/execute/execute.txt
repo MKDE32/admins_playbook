@@ -15,12 +15,18 @@ shell:common startup
 
 
 
-##### OFFICE #####
+##### SHOW PARAMETERS #####
+programm.exe /?
+programm.exe --help
+
+
+
+##### PARAMETER #####
 winword /safe
 winword.exe /a
 excel.exe /safe
 powerpoint.exe /safe
-
+firefox -P
 
 
 
