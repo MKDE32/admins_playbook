@@ -1,4 +1,4 @@
-attrib 
+attrib -r bla.txt
 
 -r        remove read only attribute
 -s        remove system attribute
