@@ -1,0 +1,22 @@
+
+Acer											F2 / Strg + Alt + Esc
+AMIBIOS/American						Entf / F1
+Megatrends	
+Asus											F2
+Award-BIOS								Entf / F2 / Strg + Alt + Esc
+Compaq									F10
+Dell											F2
+HP											F10
+Packard Bell								F2
+Phoenix-BIOS								Entf / F2 / Strg + Alt + Esc
+Sony											F2
+Toshiba										Esc / F1
+
+
+
+
+
+
+
+
+
