@@ -1,5 +1,6 @@
-apt install appname
-apt remove appname
+apt install appname         install
+-f                          force
+apt remove appname          uninstall
 
 
 
