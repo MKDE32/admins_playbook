@@ -1,0 +1,13 @@
+apt install appname
+apt remove appname
+
+
+
+
+
+
+
+
+
+
+
