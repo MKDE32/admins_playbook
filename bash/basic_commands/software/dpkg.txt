@@ -1,0 +1,22 @@
+search for installed package
+dpkg -s firefox-esr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
