@@ -1,5 +1,4 @@
-search for installed package
-dpkg -s firefox-esr
+dpkg -s firefox-esr            search for installed package
 
 
 
