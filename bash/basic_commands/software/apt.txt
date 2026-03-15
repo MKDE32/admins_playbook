@@ -1,4 +1,8 @@
-sudo apt-get install -f       update package manager
+sudo apt-get install -f        update package manager
+sudo apt-get update            update repository
+
+
+
 apt install appname           install
 apt remove appname            uninstall
 
