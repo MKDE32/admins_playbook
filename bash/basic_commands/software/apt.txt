@@ -1,6 +1,6 @@
-apt install appname         install
--f                          force
-apt remove appname          uninstall
+sudo apt-get install -f       update package manager
+apt install appname           install
+apt remove appname            uninstall
 
 
 
