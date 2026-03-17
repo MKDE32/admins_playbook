@@ -16,9 +16,9 @@ authorative                                                                     
 
 
 
-
-
-
+##### FQDN #####
+PROTOCOL   ://  SUBDOMAIN  .    DOMAIN    .         TLD
+https      ://    www      .    google    .         com
 
 
 
