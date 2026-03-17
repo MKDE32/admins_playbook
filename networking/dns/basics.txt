@@ -22,4 +22,25 @@ https      ://    www      .    google    .         com
 
 
 
+##### DNS ZONES #####
+SOA      start of authority        google.com
+NS       redundant nameservers     google.com ,  anything.google.com , whatever.google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
