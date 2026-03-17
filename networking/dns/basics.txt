@@ -1,0 +1,25 @@
+##### DNS RECORDS #####
+A         returns ipv4
+AAAA      returns ipv6
+CNAME     alias
+MX        mail server
+SRV       same as mx but not only mail services
+TXT       extended informations
+
+
+
+##### NAMESERVER TYPES #####
+cachin / recursive        the server contacted by the client, often the isp           contacts the root then tld then authorative server
+root                      13 root servers                                             gives the right tld server back
+tld                       .io .com ...                                                gives the right authorative server back
+authorative                                                                           gives the ip back to the cache server
+
+
+
+
+
+
+
+
+
+
