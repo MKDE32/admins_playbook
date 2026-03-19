@@ -1,4 +1,4 @@
-test-netconnection google.de
+test-netconnection google.de -port 80
 
 
 
