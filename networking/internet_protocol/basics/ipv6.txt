@@ -12,7 +12,8 @@ FE80::                    link local unicast (like dhcp based on the mac address
 
 
 
-#################### ADRESS/RANGES ####################
+#################### IPV4 to IPV6 ####################
+ipv4             =       80x0 + 16x1 + ipv4
 192.168.1.1      =       0:0:0:0:0:ffff:c0a8:0101
 
 
