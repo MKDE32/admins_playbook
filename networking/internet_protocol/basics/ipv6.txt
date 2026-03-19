@@ -8,7 +8,7 @@
 #################### ADRESS/RANGES ####################
 ::1                       loopback
 FF00::                    multicast
-FE80::                    link local unicast
+FE80::                    link local unicast (like dhcp based on the mac address)
 
 
 
