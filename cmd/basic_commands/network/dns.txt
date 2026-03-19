@@ -1,7 +1,11 @@
+########## BASIC COMMAND ##########
 nslookup twitter.com
 
-########## using specific dns resolver & type ##########
-nslookup
-server 8.8.8.8
-set type='mx
-google.de
+
+
+########## INTERACTIVE MODE ##########
+nslookup              start interactive mode
+server 8.8.8.8        set dns resolver
+set type='mx          set type
+set debug             verbose
+google.de             request
