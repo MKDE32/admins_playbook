@@ -1,0 +1,41 @@
+WPA3 Overview
+WPA3 is the newest version of Wi-Fi security that improves and replaces WPA2.
+It provides stronger encryption, better authentication, and improved protection against cyberattacks.
+
+Main Benefits
+Stronger authentication
+Better encryption
+Easier wireless security for users
+Protection against modern attacks
+Required Protected Management Frames (PMF) for enterprise networks
+
+WPA3 Versions
+1. WPA3-Personal
+Natural password selection → Users can use easier passwords
+Easier connection → No change in how users connect to Wi-Fi
+Forward secrecy → Past data remains protected even if a password is stolen
+Simultaneous Authentication of Equals (SAE) → Replaces WPA2’s PSK handshake and provides stronger authentication
+Protects against:
+Brute force attacks
+Dictionary attacks
+KRACK attacks (key reinstallation attacks)
+
+2. WPA3-Enterprise
+Designed for business networks with many users.
+Key Security Technologies
+GCMP-256 Encryption
+Uses 256-bit AES encryption
+Stronger than WPA2’s 128-bit encryption
+Improves confidentiality and integrity
+Opportunistic Wireless Encryption (OWE)
+Encrypts traffic on open networks
+Gives each device a unique encryption key
+Wi-Fi Device Provisioning Protocol (DPP)
+Replaces WPS
+Allows passwordless connection using QR codes or NFC
+HMAC with SHA
+Creates a secure hash to verify message integrity
+Detects if data is altered during transmission
+ECDHE & ECDSA
+Used for secure key exchange and authentication
+Faster and more secure than WPA2’s 4-way handshake
