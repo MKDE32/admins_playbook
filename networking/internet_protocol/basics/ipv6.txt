@@ -12,4 +12,21 @@ FE80::                    link local unicast (like dhcp based on the mac address
 
 
 
+#################### ADRESS/RANGES ####################
+192.168.1.1      =       0:0:0:0:0:ffff:c0a8:0101
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
