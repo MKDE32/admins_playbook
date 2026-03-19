@@ -1,0 +1,7 @@
+nslookup twitter.com
+
+########## using specific dns resolver & type ##########
+nslookup
+server 8.8.8.8
+set type='mx
+google.de
