@@ -1,0 +1,135 @@
+Wireless Network Protocols for IoT (Summary)
+
+IoT devices (smart sensors, security systems, thermostats, etc.) use wireless network protocols to connect to networks and the internet.
+These protocols operate mainly at the OSI physical layer and allow devices to communicate either locally (short range) or globally (internet connectivity).
+
+Common Wireless Protocols for IoT
+Wi-Fi (IEEE 802.11)
+
+Most common wireless network protocol 🌐
+
+Used to connect IoT devices to existing internet networks
+
+Wi-Fi 6 speeds: up to 500 Mbps
+
+Frequencies
+
+2.4 GHz
+
+Longer range (150 ft indoor / 300 ft outdoor)
+
+More interference
+
+5 GHz
+
+Faster and less congestion
+
+Shorter range (50 ft indoor / 100 ft outdoor)
+
+IEEE 802.15.4
+
+Low-power wireless technology for battery IoT devices
+
+Used for Low-Rate Wireless Personal Area Networks (LR-WPAN)
+
+Uses 128-bit encryption
+
+Examples include:
+
+ZigBee
+
+Popular in smart homes
+
+Uses mesh networking
+
+Devices can communicate through multiple nodes
+
+Thread
+
+Uses IPv6
+
+Works across many IoT ecosystems
+
+No proprietary gateways needed
+
+Z-Wave
+
+Uses 908.2 MHz radio frequency
+
+Range up to 330 ft
+
+Used for smart home device control
+
+Secure closed network
+
+Wireless Mesh Networks (WMN)
+
+Many IoT systems use mesh networks.
+
+Features:
+
+Devices (nodes) connect to each other
+
+Data moves node-to-node until it reaches its destination
+
+Self-healing network (reroutes if a node fails)
+
+Types:
+
+Full mesh: every node connects to all others
+
+Partial mesh: nodes connect only to nearby nodes
+
+Benefits:
+
+Low power usage
+
+High reliability
+
+Other Wireless IoT Protocols
+Bluetooth
+
+Frequency: 2.45 GHz
+
+Speed: up to 3 Mbps
+
+Range: ~100 ft
+
+Used for short-range device communication
+
+Example: controlling smart home devices from a phone
+
+Near-Field Communication (NFC)
+
+Frequency: 13.56 MHz
+
+Range: ~2–8 inches
+
+Very short-range communication
+
+Used in:
+
+contactless payments
+
+ID cards
+
+smartphone wallets
+
+LoRaWAN
+
+Designed for long-range IoT communication
+
+Connects battery-powered devices across large areas
+
+Good for widely distributed IoT networks
+
+Key Idea
+
+IoT devices use different wireless protocols depending on range, power usage, and network needs:
+
+Protocol	Best Use
+Wi-Fi	Internet-connected IoT devices
+ZigBee / Z-Wave / Thread	Smart home & low-power mesh networks
+Bluetooth	Short-range device control
+NFC	Very short-range communication
+LoRaWAN	Long-distance IoT networks
