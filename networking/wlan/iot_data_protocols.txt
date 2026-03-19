@@ -1,0 +1,84 @@
+1. What IoT Data Protocols Do
+IoT devices (like sensors and smart machines) collect data such as:
+Temperature 🌡️
+Machine status ⚙️
+Electricity usage ⚡
+Data transfer protocols allow these devices to send data across networks to applications or systems that analyze and use the information.
+
+
+
+2. Two Main Communication Models
+
+Request/Response Model
+A client sends a request, and a server sends back a response.
+Common in traditional web communication.
+Examples:
+HTTP
+CoAP
+Example:
+A device asks a server for data → server responds.
+
+Publish/Subscribe Model
+Devices (publishers) send messages to a broker.
+Clients (subscribers) receive updates from the broker.
+Examples:
+MQTT
+AMQP
+DDS
+Example:
+A temperature sensor publishes new readings → subscribers receive updates automatically.
+
+
+
+3. Common IoT Application Layer Protocols
+
+HTTP / HTTPS
+Standard web communication protocol 🌐
+Uses request/response
+Uses TCP or UDP
+Ports 80 / 8080
+HTTPS adds security
+Widely used for device-to-cloud communication
+
+MQTT
+Lightweight protocol for machine-to-machine (M2M) communication
+Uses publish/subscribe
+Uses TCP
+Supports SSL/TLS security
+Very efficient for low-power IoT devices
+
+CoAP
+Similar to HTTP
+Designed for small, constrained IoT devices
+Often used in smart homes, energy management, and automation
+
+AMQP
+Messaging protocol for communication between applications
+Designed for reliable and secure messaging
+Prevents vendor lock-in
+
+XMPP
+Open standard for messaging and communication
+Supports chat, voice, and video
+Extensible and flexible
+
+DDS
+Middleware protocol for fast, real-time data sharing
+Uses publish/subscribe
+Offers low latency and high reliability
+Good for large IoT ecosystems
+
+
+
+4. Machine-to-Machine (M2M) Communication Types
+M2M communication includes architectures like:
+REST – communication style used by web services
+SOA – used in industrial automation
+Message-oriented protocols – asynchronous messaging systems
+
+
+
+5. Key Idea:
+IoT devices use different protocols to efficiently send data.
+HTTP / CoAP → request/response
+MQTT / AMQP / DDS → publish/subscribe
