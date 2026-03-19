@@ -18,6 +18,20 @@ ipv4             =       80bit x 0 + 16bit x 1 + 32bit-ipv4
 
 
 
+#################### IPV6 to IPV4 ####################
+ipv6 tunnel = ipv6 is split into the ipv4 data
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
