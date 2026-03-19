@@ -5,10 +5,10 @@
 
 
 
-#################### LOOPBACK ####################
-::1
-
-
+#################### ADRESS/RANGES ####################
+::1                       loopback
+FF00::                    multicast
+FE80::                    link local unicast
 
 
 
