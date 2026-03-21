@@ -1,1 +1,23 @@
 copy from to
+
+
+
+xcopy
+/s        subdirectorys
+/j        protect large files
+
+
+
+robocopy 
+/sec        copys with security informations like permissions
+
+
+
+
+
+
+
+
+
+
+
