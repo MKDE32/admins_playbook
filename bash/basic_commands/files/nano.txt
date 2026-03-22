@@ -1,0 +1,18 @@
+nano bla
+
+
+
+ctrl O        save 
+ctrl X        exit & ask for save
+
+
+ctrl W        search
+alt \         goto start of file
+alt /         goto end of file
+
+
+
+
+
+
+
