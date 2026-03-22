@@ -1,4 +1,5 @@
 whatever commands 2> errors.txt          writing stderr to errors.txt
+whatever commands 2> $null               redirect error messages to $null
 
 
 
