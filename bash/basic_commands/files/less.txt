@@ -1,0 +1,12 @@
+less bla.txt
+
+arro up       up
+arrow down    down
+f             find
+q             quit
+
+
+
+
+
+
