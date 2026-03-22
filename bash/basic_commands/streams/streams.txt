@@ -2,9 +2,9 @@ whatever commands 2> /dev/null          redirect error messages to /dev/null
 
 
 
-
-
-
+0      stdin
+1      stdout
+2      stderr
 
 
 
