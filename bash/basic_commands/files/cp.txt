@@ -1,1 +1,5 @@
+cp src dst
+cp *.png ~/Desktop
+
+-r
 
