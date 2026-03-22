@@ -1,0 +1,18 @@
+whatever commands 2> /dev/null          redirect error messages to /dev/null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
