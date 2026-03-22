@@ -2,6 +2,10 @@ whatever commands 2> /dev/null          redirect error messages to /dev/null
 
 
 
+command1 | command2                      redirect stdout from c1 to c2
+
+
+
 0      stdin
 1      stdout
 2      stderr
