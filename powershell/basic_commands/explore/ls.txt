@@ -1,1 +1,22 @@
-ls -force
+ls 
+ls path -recurse -filter *.exe
+
+
+-force
+-recurse
+-filter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
