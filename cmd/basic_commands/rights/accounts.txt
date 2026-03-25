@@ -6,8 +6,9 @@ net user cindy /logonpasswordchg:yes
 
 
 
+#################### USER ADD & SET PW ####################
+net user andrea * /add
 
-
-
-
+#################### USER ADD & LET PW CHANGE ####################
+net user andrea superc0mplexpass /add /logonpasswordchg:yes
 
