@@ -16,5 +16,5 @@ execute  x    1
 
 
 
-
-
+#################### CHANGE OWNER ####################
+chown devan my_cool_file
