@@ -4,8 +4,14 @@ sudo passwd cindy
 #################### FORCE USER TO CHANGE HIS PW ####################
 sudo passwd -e cindy
 
-####################  ####################
+
+
+#################### ADD USER ####################
 sudo useradd juan
 
+
+
+#################### DEL USER ####################
+sudo userdel juan
 
 
