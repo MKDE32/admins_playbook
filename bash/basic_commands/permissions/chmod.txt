@@ -2,7 +2,9 @@ ls -l my_cool_file
 
 
 
-chmod u+x my_cool_file
+chmod u+rwx my_cool_file
+chmod g+rwx my_cool_file
+chmod o+rwx my_cool_file
 
 
 
