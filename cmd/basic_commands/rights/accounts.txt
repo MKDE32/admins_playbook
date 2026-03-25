@@ -1,7 +1,7 @@
-### CHANGE PW  ###
+#################### CHANGE PW  ####################
 net user cindy *
 
-### FORCE USER TO CHANGE HIS PW ###
+#################### FORCE USER TO CHANGE HIS PW ####################
 net user cindy /logonpasswordchg:yes
 
 
@@ -11,4 +11,16 @@ net user andrea * /add
 
 #################### USER ADD & LET PW CHANGE ####################
 net user andrea superc0mplexpass /add /logonpasswordchg:yes
+
+
+
+#################### DELETE USER ####################
+net user andrea /del
+
+
+
+
+
+
+
 
