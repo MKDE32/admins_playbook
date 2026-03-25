@@ -1,20 +1,18 @@
+#################### LIST PERMISSIONS ####################
 ls -l my_cool_file
 
 
 
+#################### CHANGE PERMISSIONS ####################
 chmod u+rwx my_cool_file
 chmod g+rwx my_cool_file
 chmod o+rwx my_cool_file
-
-
-
+OR
 chmod 754 my_cool_file
 
-
-
-r  4
-w  2
-x  1
+r = 4
+w = 2
+x = 1
 
 
 
