@@ -10,9 +10,9 @@ chmod o+rwx my_cool_file
 OR
 chmod 754 my_cool_file
 
-r = 4
-w = 2
-x = 1
+read     r    4
+write    w    2
+execute  x    1
 
 
 
