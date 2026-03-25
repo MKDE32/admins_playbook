@@ -13,12 +13,12 @@ sudo chmod 754 my_cool_file
 sudo chmod 4754 my_cool_file
 #################### CHANGE PERMISSIONS WITH SETGID ####################
 sudo chmod 4754 my_cool_file
-
 read     r    4
 write    w    2
 execute  x    1
 setuid   s    4    run file as owner
 setgid        2    group run as owner
+
 
 
 #################### CHANGE OWNER ####################
