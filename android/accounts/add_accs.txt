@@ -1,0 +1,38 @@
+Konten auf Android-Geräten hinzufügen oder entfernen
+
+Wenn Sie ein Google-Konto hinzufügen, werden die mit diesem Konto verknüpften Informationen wie Ihre E‑Mail-Adresse und Ihre Kontakte automatisch auf Ihrem Gerät hinzugefügt. Wenn Sie ein Konto entfernen, werden alle zugehörigen Inhalte ebenfalls von Ihrem Gerät gelöscht. Dazu gehören u. a. E-Mails, Kontakte und Einstellungen.
+
+Wichtig: Einige dieser Schritte funktionieren nur unter Android 14 oder höher. Informationen zum Aktualisieren der Android-Version
+Fügen Sie Ihrem Telefon ein Google-Konto oder ein anderes Konto hinzu
+
+    Öffnen Sie auf dem Gerät die Einstellungen.
+    Tippen Sie auf Passwörter & Konten.
+        Wenn „Passwörter & Konten“ nicht verfügbar ist, tippen Sie je nach Gerät auf eine der folgenden Optionen:
+            Nutzer und Konten
+            Passwörter, Passkeys & Autofill
+            Passwörter, Passkeys & Konten
+            Konten verwalten
+
+    Tippen Sie unter „Konten“ auf Konto hinzufügen.
+    Tippen Sie auf den Kontotyp, den Sie hinzufügen möchten.
+        Wenn Sie ein Google-Konto hinzufügen möchten, tippen Sie auf Google. Wenn Sie sich mit einem Google-Konto anmelden, werden automatisch E-Mails, Kontakte, Kalendertermine und andere diesem Konto zugeordnete Daten mit dem Gerät synchronisiert.
+        Wenn Sie ein Google Meet-Konto hinzufügen möchten, tippen Sie auf Meet. Wenn Sie sich mit Ihrem Meet-Konto anmelden, können Sie Videoanrufe machen und entgegennehmen, Meetings erstellen und auf mit der Google Home App verknüpften Geräten anrufen.
+        Falls Sie ein anderes privates Konto hinzufügen möchten, tippen Sie auf Exchange, Privat (IMAP) oder Privat (POP3). In der Regel sollten Sie einen dieser Typen auswählen, wenn Sie ein E-Mail-Programm wie Microsoft Outlook oder Apple Mail verwenden. Informationen dazu, wie Sie Gmail-Nachrichten über IMAP oder POP3 abrufen können
+    Folgen Sie der Anleitung auf dem Bildschirm.
+    Wenn Sie Konten hinzufügen, müssen Sie aus Sicherheitsgründen möglicherweise das Muster, die PIN oder das Passwort für Ihr Gerät eingeben.
+
+Tipp: Wenn Sie das Gerät einem Freund leihen möchten, können Sie Weitere Informationen zum Erstellen eines separaten Nutzerprofils oder Temporärer Gast verwenden, anstatt ein Konto hinzuzufügen.
+Google-Konto oder anderes Konto vom Gerät entfernen
+
+    Öffnen Sie auf dem Gerät die Einstellungen.
+    Tippen Sie auf Passwörter & Konten.
+        Wenn „Passwörter & Konten“ nicht verfügbar ist, tippen Sie je nach Gerät auf eine der folgenden Optionen:
+            Nutzer und Konten
+            Passwörter, Passkeys & Autofill
+            Passwörter, Passkeys & Konten
+            Konten verwalten
+
+    Tippen Sie unter „Konten“ auf das Konto, das Sie entfernen möchten und dann Konto entfernen.
+    Tippen Sie zur Bestätigung auf Konto entfernen und dann Löschen.
+    Wenn dies das einzige Google-Konto auf dem Gerät ist, müssen Sie aus Sicherheitsgründen das Muster, die PIN oder das Passwort für Ihr Gerät eingeben.
+
