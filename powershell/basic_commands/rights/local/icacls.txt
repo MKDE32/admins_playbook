@@ -1,1 +1,12 @@
 icacls 'C:\Pictures\' /grant 'Everyone:(OI)(CI)(R)'
+
+icacls 'C:\Pictures\' /remove Everyone
+
+
+
+
+
+
+
+
+
