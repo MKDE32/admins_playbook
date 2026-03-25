@@ -1,0 +1,13 @@
+### CHANGE PW  ###
+net user cindy *
+
+### FORCE USER TO CHANGE HIS PW ###
+net user cindy /logonpasswordchg:yes
+
+
+
+
+
+
+
+
