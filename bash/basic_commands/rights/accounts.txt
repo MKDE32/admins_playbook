@@ -1,6 +1,8 @@
+### CHANGE PW ###
 passwd cindy
 
-
+### FORCE USER TO CHANGE HIS PW ###
+passwd -e cindy
 
 
 
