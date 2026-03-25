@@ -1,0 +1,20 @@
+ls -l my_cool_file
+
+
+
+chmod u+x my_cool_file
+
+
+
+chmod 754 my_cool_file
+
+
+
+r  4
+w  2
+x  1
+
+
+
+
+
