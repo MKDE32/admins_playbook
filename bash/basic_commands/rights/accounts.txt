@@ -1,10 +1,11 @@
-### CHANGE PW ###
-passwd cindy
+#################### CHANGE PW ####################
+sudo passwd cindy
 
-### FORCE USER TO CHANGE HIS PW ###
-passwd -e cindy
+#################### FORCE USER TO CHANGE HIS PW ####################
+sudo passwd -e cindy
 
-
+####################  ####################
+sudo useradd juan
 
 
 
