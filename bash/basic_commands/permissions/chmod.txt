@@ -4,11 +4,11 @@ ls -l my_cool_file
 
 
 #################### CHANGE PERMISSIONS ####################
-chmod u+rwx my_cool_file
-chmod g+rwx my_cool_file
-chmod o+rwx my_cool_file
+sudo chmod u+rwx my_cool_file
+sudo chmod g+rwx my_cool_file
+sudo chmod o+rwx my_cool_file
 OR
-chmod 754 my_cool_file
+sudo chmod 754 my_cool_file
 
 read     r    4
 write    w    2
@@ -17,4 +17,21 @@ execute  x    1
 
 
 #################### CHANGE OWNER ####################
-chown devan my_cool_file
+sudo chown devan my_cool_file
+
+
+
+#################### CHANGE GROUP ####################
+sudo chgrp anygroup anyfile
+
+
+
+
+
+
+
+
+
+
+
+
