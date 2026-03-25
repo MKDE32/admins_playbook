@@ -2,6 +2,10 @@ icacls .\
 
 
 
+icacls "C:\Pictures\" /grant Everyone:(OI)(CI)(R)
+
+
+
 N - Kein Zugriff
                 F - Vollzugriff
                 M - Änderungszugriff
