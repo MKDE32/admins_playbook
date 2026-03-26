@@ -5,7 +5,7 @@ icacls 'C:\Pictures\'
 
 ############### GRANT PERMISSIONS ###############
 icacls 'C:\Pictures\' /grant 'Everyone:(OI)(CI)(R)'
-
+icacls .\ /grant Everyone:(OI)(CI)F /T
 
 
 ############### REMOVE PERMISSIONS ###############
