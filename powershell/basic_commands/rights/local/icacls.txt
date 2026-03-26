@@ -13,8 +13,8 @@ icacls 'C:\Pictures\' /remove Everyone
 
 
 
-
-
+############### REMOVE INHERITANCE ###############
+icacls .\ /inheritance:d
 
 
 
