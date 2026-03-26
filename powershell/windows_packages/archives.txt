@@ -3,8 +3,8 @@ compress-archive -path source dest\archive.zip
 
 
 
-
-
+##### UNZIP #####
+Expand-Archive -Path "C:\path\to\file.zip" -DestinationPath "C:\path\to\folder"
 
 
 
