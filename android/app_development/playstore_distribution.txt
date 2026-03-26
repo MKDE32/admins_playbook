@@ -1,0 +1,38 @@
+To distribute an app publicly through the Google Play Store, a developer will: 
+
+    Create a Google Play developer account.
+
+    Use the Google Play Console to Create App.
+
+        Provide preliminary information about the app.
+
+        Review and agree to the Developer Program Policies, Terms of Service, and documentation about export laws (where applicable).
+
+    Use the app’s Dashboard for guidance through the app publishing process:
+
+        Google Play Store listing
+
+        Pre-release management
+
+        Prepare a release
+
+        Testing
+
+        Submit app and declarations for review by Google
+
+        Promotion/pre-registration
+
+        Publish app (upon review approval) 
+
+
+
+
+
+
+
+
+
+
+
+
+
