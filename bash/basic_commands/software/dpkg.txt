@@ -1,6 +1,6 @@
 dpkg -s firefox-esr            search for installed package
 
-
+dpkg -i package.deb            install deb package
 
 
 
