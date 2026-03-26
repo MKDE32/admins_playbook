@@ -1,0 +1,34 @@
+msiexec /i app.msi /flag1 /flag2 /flag3...
+
+
+/?  /h  /help
+/i                  install
+/x                  uninstall
+/qn                 no user interface
+/qb                 basic ui
+/extract:[path]     extract, (no installation)
+/quiet              background installation, no user interaction possibe
+/passive            same as quiet but u see the installprocess
+/norestart          no restart
+/log:[path]         log file
+/l* log.txt         verbose logging
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
