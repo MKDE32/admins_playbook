@@ -1,0 +1,21 @@
+########## SHOW REPOSITORY ##########
+get-packagesource
+
+
+
+########## ADD REPOSITORY ##########
+register-packagesource -name Chocolatey -providername Chocolatey -location http://chocolatey.org/api/v2
+
+
+
+########## FIND PACKAGE ##########
+find-package sysinternals -includedependencies
+
+
+
+########## INSTALL PACKAGE ##########
+install-package sysinternals
+
+
+
+
