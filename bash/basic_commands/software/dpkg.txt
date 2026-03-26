@@ -1,8 +1,10 @@
-dpkg -s firefox-esr            search for installed package
-
-dpkg -i package.deb            install deb package
+dpkg -s firefox-esr            
 
 
+
+-s app                          search for installed package
+-i package.deb                  install deb package
+-r app                          remove
 
 
 
