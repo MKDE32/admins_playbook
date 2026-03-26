@@ -1,0 +1,5 @@
+ls
+
+-l      list
+-a      all
+-d      directory
