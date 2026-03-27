@@ -14,7 +14,7 @@ find-package sysinternals -includedependencies
 
 
 ########## INSTALL PACKAGE ##########
-install-package -name sysinternals
+install-package -name sysinternals -source chocolatey
 
 
 
