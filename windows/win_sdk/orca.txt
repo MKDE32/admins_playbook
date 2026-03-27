@@ -1,0 +1,5 @@
+It’s a database editor for Windows installer files that lets you modify how a program installs.
+
+View the contents of an MSI installer
+Change install settings
+Create or edit MSI transforms (.MST)
