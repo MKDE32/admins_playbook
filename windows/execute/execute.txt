@@ -6,6 +6,7 @@ rstrui
 eventvwr
 tpm.msc
 uac
+devmgmt.msc
 
 
 
