@@ -1,0 +1,11 @@
+$ ls /dev - Lists all devices in the /dev folder 
+
+$ lcpci - Lists devices installed on the PCI bus 
+
+$ lsusb - Lists devices installed on the USB bus
+
+$ lsscsi - Lists SCSI devices, such as hard drives
+
+$ lpstat -p - Lists all printers and whether they are enabled
+
+$ dmesg - Lists devices recognized by the kernel
