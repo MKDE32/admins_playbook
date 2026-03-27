@@ -1,5 +1,7 @@
 sudo apt-get install -f        update package manager
 sudo apt-get update            update repository
+sudo apt upgrade               software upgrade
+sudo apt full-upgrade          software & kernel upgrade
 
 
 
