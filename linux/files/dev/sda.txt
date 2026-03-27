@@ -1,4 +1,7 @@
-first scsi drive
+scsi, sata, usb interfaces
+
+
+
 sda    1. drive
 sda1   1. drive, 1. partition
 sda2   1. drive, 2. partition
