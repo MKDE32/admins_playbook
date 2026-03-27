@@ -1,1 +1,20 @@
 first scsi drive
+sda    1. drive
+sda1   1. drive, 1. partition
+sda2   1. drive, 2. partition
+sdb    2. drive
+sdb1   2. drive, 1. partition
+sdc ...
+
+
+
+lsblk
+sudo fdisk -l
+
+
+
+
+
+
+
+
