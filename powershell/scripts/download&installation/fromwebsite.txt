@@ -1,12 +1,30 @@
+########## SET URL ##########
 $VLC_URL = "https://get.videolan.org/vlc/last/win64/"
+
+########## SET URL ##########
 $GET_HTML = Invoke-WebRequest $VLC_URL
+
+########## SET URL ##########
 $FILE = $GET_HTML.Links | Select-Object @{Label='href';Expression={@{$true=$_.href}[$_.href.EndsWith('win64.exe')]}} | Select-Object -ExpandProperty href
+
+########## SET URL ##########
 $URL = ($VLC_URL+$FILE)
+
+########## SET URL ##########
 $DOWNLOAD_DIR = "C:\users\qwiklabs\Downloads\"
+
+########## SET URL ##########
 $OUTPUT_FILE = ($DOWNLOAD_DIR+$FILE)
+
+########## SET URL ##########
 Invoke-WebRequest $URL -OutFile $OUTPUT_FILE
+
+########## SET URL ##########
 Start-Process $OUTPUT_FILE -ArgumentList "/S" -Wait
 
+
+
+########## SET URL ##########
 Get-Package -Name *vlc*
 
 
