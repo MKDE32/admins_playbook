@@ -5,22 +5,24 @@ $VLC_URL = "https://get.videolan.org/vlc/last/win64/"
 $GET_HTML = Invoke-WebRequest $VLC_URL
 
 ########## 3 SEARCH FOR LINK IN HREF (IN THIS CASE ITS A RELATIVE LINK) ##########
-$FILE = $GET_HTML.Links | Select-Object @{Label='href';Expression={@{$true=$_.href}[$_.href.EndsWith('win64.exe')]}} | Select-Object -ExpandProperty href
+$FILE = $GET_HTML.Links | Select-Object `
+@{Label='href';Expression={@{$true=$_.href}[$_.href.EndsWith('win64.exe')]}} `
+| Select-Object -ExpandProperty href
 
 ########## 4 SET COMPLETE URL ##########
 $URL = ($VLC_URL+$FILE)
 
 ########## 5 SET DOWNLOAD DIR ##########
-$DOWNLOAD_DIR = "C:\users\qwiklabs\Downloads\"
+$DOWNLOAD_DIR = "$env:USERPROFILE\Desktop"
 
 ########## 6 SET COMPLETE DOWNLOAD PATH ##########
 $OUTPUT_FILE = ($DOWNLOAD_DIR+$FILE)
 
 ########## DOWNLOAD ##########
-Invoke-WebRequest $URL -OutFile $OUTPUT_FILE
+(new-object System.Net.WebClient).DownloadFile($URL, $OUTPUT_FILE)
 
 ########## START SILENT INSTALLATION ##########
-Start-Process $OUTPUT_FILE -ArgumentList "/S" -Wait
+cmd.exe /c $OUTPUT_FILE
 
 
 
