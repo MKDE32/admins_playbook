@@ -4,8 +4,8 @@ $FILE = $GET_HTML.Links | Select-Object @{Label='href';Expression={@{$true=$_.hr
 $URL = ($VLC_URL+$FILE)
 $DOWNLOAD_DIR = "C:\users\qwiklabs\Downloads\"
 $OUTPUT_FILE = ($DOWNLOAD_DIR+$FILE)
-(new-object System.Net.WebClient).DownloadFile($URL, $OUTPUT_FILE)
-cmd.exe /c $OUTPUT_FILE /S
+Invoke-WebRequest $URL -OutFile $OUTPUT_FILE
+Start-Process $OUTPUT_FILE -ArgumentList "/S" -Wait
 
 Get-Package -Name *vlc*
 
