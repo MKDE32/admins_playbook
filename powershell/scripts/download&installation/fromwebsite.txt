@@ -1,10 +1,10 @@
-########## SET URL ##########
+########## 1 SET DOWNLOAD PAGE ##########
 $VLC_URL = "https://get.videolan.org/vlc/last/win64/"
 
-########## GET REQUEST DOWNLOADPAGE ##########
+########## 2 SAVE PAGE IN VARIABLE ##########
 $GET_HTML = Invoke-WebRequest $VLC_URL
 
-########## SEARCH 4 LINKS ##########
+########## 3 SEARCH FOR LINK IN HREF (IN THIS CASE ITS A RELATIVE LINK) ##########
 $FILE = $GET_HTML.Links | Select-Object @{Label='href';Expression={@{$true=$_.href}[$_.href.EndsWith('win64.exe')]}} | Select-Object -ExpandProperty href
 
 ########## SET URL ##########
