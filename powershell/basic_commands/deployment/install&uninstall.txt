@@ -1,0 +1,5 @@
+cmd.exe /c "C:\Program Files\GIMP 2\uninst\unins000.exe" /VERYSILENT /NORESTART
+Get-Package
+
+
+
