@@ -6,6 +6,10 @@ sudo apt full-upgrade          software & kernel upgrade
 
 
 apt install appname           install
+-f                fix dependencies
+
+
+
 apt remove appname            uninstall
 
 
