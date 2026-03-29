@@ -8,7 +8,7 @@ parted /dev/sdb              starting interactive mode with device sdb
 print                         show partition
 mklabel gpt                   set partition table to gpt
 mkpart primary 1MiB 5GiB      primary part. from 1MiB to 5GiB
-
+quit                          exit parted
 
 
 
