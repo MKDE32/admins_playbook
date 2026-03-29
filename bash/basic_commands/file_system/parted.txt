@@ -1,0 +1,22 @@
+parted -l              shows partitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
