@@ -6,7 +6,7 @@ sudo apt full-upgrade          software & kernel upgrade
 
 
 apt install appname           install
--f                fix dependencies
+-f                            fix dependencies
 
 
 
