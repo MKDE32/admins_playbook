@@ -1,0 +1,1 @@
+mkswap /dev/sda2         is used after making a swap partition with parted
