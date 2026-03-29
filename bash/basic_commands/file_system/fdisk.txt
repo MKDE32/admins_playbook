@@ -29,7 +29,7 @@ d	Delete partition
 
 t	Change partition type
 
-a	Toggle bootable flag
+a	Toggle bootable flag (if this is a bootable partition or not)
 
 w	Write changes to disk (save)
 q	Quit WITHOUT SAVING
