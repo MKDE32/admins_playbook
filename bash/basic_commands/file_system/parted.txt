@@ -1,9 +1,11 @@
+########## GETTING AN OVERVIEW ##########
 parted -l              shows partitions
+parted /dev/sdb        starting interactive mode with device sdb
 
 
 
-
-
+########## INTERACTIVE MODE ##########
+print                  show partition
 
 
 
