@@ -1,13 +1,13 @@
 ########## GETTING AN OVERVIEW ##########
-parted -l              shows partitions
-parted /dev/sdb        starting interactive mode with device sdb
+parted -l                    shows partitions
+parted /dev/sdb              starting interactive mode with device sdb
 
 
 
 ########## INTERACTIVE MODE ##########
-print                  show partition
-
-
+print                         show partition
+mklabel gpt                   set partition table to gpt
+mkpart primary 1MiB 5GiB      primary part. from 1MiB to 5GiB
 
 
 
