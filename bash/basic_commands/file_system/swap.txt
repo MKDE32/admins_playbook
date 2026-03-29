@@ -1,0 +1,19 @@
+mkpart primary linux-swap 5GiB 100%     making swap partition
+mkswap /dev/sda2                        like formating ext4
+swapon /dev/sda2                        activate swap, like mounting
+
+if needed add the swap partition to fstab file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
