@@ -3,6 +3,8 @@ cd anything
 
 
 
+unmount /dev/sdb1
+
 
 
 
