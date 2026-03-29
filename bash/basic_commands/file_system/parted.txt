@@ -1,14 +1,15 @@
 ########## GETTING AN OVERVIEW ##########
 parted -l                    shows partitions
-parted /dev/sdb              starting interactive mode with device sdb
+parted /dev/sdb              interactive mode
 
 
 
 ########## INTERACTIVE MODE ##########
-print                         show partition
-mklabel gpt                   set partition table to gpt
-mkpart primary 1MiB 5GiB      primary part. from 1MiB to 5GiB
-quit                          exit parted
+print                                   show partition
+mklabel gpt                             set partition table to gpt
+mkpart primary 1MiB 5GiB                primary part. from 1MiB to 5GiB
+mkpart primary linux-swap 5GiB 100%     making swap partition
+quit                                    exit parted
 
 
 
