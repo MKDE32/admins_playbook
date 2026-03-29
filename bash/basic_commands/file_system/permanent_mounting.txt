@@ -8,9 +8,9 @@ blkid                show uuid
 1              2                  3                     4          5                  6
 device uuid    mount point        file system type      options    backup dumps       fsck check order
 -------------------------------------------------------------------------------------------------------
-blablabla      /                  ext3                  nouser     0                  1
-blablabla      swap               swap                  defaults   0                  0
-blablabla      /mnt/shared        nfs                   rw, noexec 0                  2
+UUID=uuid      /                  ext3                  nouser     0                  1
+OR             swap               swap                  defaults   0                  0
+/dev/sda3      /mnt/shared        nfs                   rw, noexec 0                  2
 
 
 
