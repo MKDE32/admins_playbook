@@ -1,0 +1,17 @@
+########## OVERVIEW ##########
+cat /etc/fstab       show fstab file
+blkid                show uuid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
