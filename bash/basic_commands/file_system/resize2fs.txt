@@ -1,0 +1,1 @@
+resize2fs /dev/sdb1        use this if the partition is not formated completely eg cause of extending the partition space
