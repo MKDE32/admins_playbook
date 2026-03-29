@@ -1,20 +1,20 @@
-diskpart
+diskpart                              enter diskpart
 
-list disk
-select disk 0
+list disk                             list disks
+list partition                        list partitions
 
-list partition
-select partition 1
+select disk 0                         select disk
+select partition 1                    select partition
 
-delete partition
+delete partition                      delete partition
 
-create partition primary
+create partition primary              create partition
 
-clean all
+clean                                 deletes mbr/gpt
+clean all                             deletes mbr/gpt
+format fs=ntfs label=whatuwant quick   quickformating
 
-format fs=ntfs
-
-
+active                                 mark partition as active
 
 
 
