@@ -1,0 +1,19 @@
+mount /dev/sdb1 /anything/
+cd anything
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
