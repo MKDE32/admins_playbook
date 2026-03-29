@@ -4,14 +4,28 @@ blkid                show uuid
 
 
 
-##########  ##########
+########## FSTAB ##########
 1              2                  3                     4          5                  6
 device uuid    mount point        file system type      options    backup dumps       fsck check order
+-------------------------------------------------------------------------------------------------------
 blablabla      /                  ext3                  nouser     0                  1
 blablabla      swap               swap                  defaults   0                  0
 blablabla      /mnt/shared        nfs                   rw, noexec 0                  2
 
 
+
+########## FSTAB OPTIONS ##########
+sync or async - Sets reading and writing to the file system to occur synchronously or asynchronously.
+auto - Automatically mounts the file system when booting.
+noauto - Prevents the file system from mounting automatically when booting.
+dev or nodev - Allows or prohibits the use of the device driver to mount the device.
+exec or noexec - Allows or prevents file system binaries from executing.
+ro - Mount file system as read-only.
+rw - Mount file system for read-write operations.
+user - Allows any user to mount the file system, but restricts which user can unmount the file system.
+users - Any user can mount the file system plus any user can unmount file system.
+nouser - The root user is the only role that can mount the file system (default setting).
+defaults - Use default settings, which include rw, suid, dev, exec, auto, nouser, async.
 
 
 
