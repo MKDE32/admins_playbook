@@ -4,6 +4,10 @@ lsblk
 ```
 
 ```
+df -h
+```
+
+```
 sudo fdisk -l
 ```
 
