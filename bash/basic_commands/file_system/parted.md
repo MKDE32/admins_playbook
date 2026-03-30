@@ -34,7 +34,7 @@ making swap partition
 ```
 quit
 ```
-exit parted  
+exit parted
 
 
 ```
