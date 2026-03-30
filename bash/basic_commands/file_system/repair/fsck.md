@@ -1,3 +1,3 @@
 ```
-fsck /dev/sda
+sudo fsck /dev/sda
 ```
