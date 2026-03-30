@@ -1,4 +1,4 @@
-########## SYMLINK ##########
+SYMLINK
 ```
 mklink anything bla.txt
 ```
@@ -7,7 +7,7 @@ if destination is deleted the link is broken
   
   
 
-########## HARDLINK ##########
+HARDLINK
 ```
 mklink /H anything bla.txt
 ```
