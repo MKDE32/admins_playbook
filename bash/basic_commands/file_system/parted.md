@@ -1,6 +1,12 @@
-########## GETTING AN OVERVIEW ##########
-parted -l                    shows partitions
-parted /dev/sdb              interactive mode
+# GETTING AN OVERVIEW
+```
+parted -l
+```
+shows partitions
+```
+parted /dev/sdb
+```
+interactive mode
 
 
 
