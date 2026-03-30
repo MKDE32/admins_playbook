@@ -13,7 +13,7 @@ is no link but a second name
 as long as one hardlink exists you can access the data  
 works only in the same file systen
 
-1. ztg
+`1. ztg`
 2. uug
 
 * ihgkh
