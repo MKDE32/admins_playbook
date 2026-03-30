@@ -3,9 +3,13 @@
 lsblk
 ```
 
+```
+sudo fdisk -l
+```
+
 # START INTERACTIVE MODE
 ```
-fdisk /dev/sda
+sudo fdisk /dev/sda
 ```
 
 # FLAGS
@@ -21,7 +25,7 @@ fdisk /dev/sda
 `l`	List partition types  
 `t`	Change partition type
 - p primary partition
-a`	Toggle bootable flag (if this is a bootable partition or not)
+`a`	Toggle bootable flag (if this is a bootable partition or not)
 
 `w` write changes
 `q` exit, no saving
