@@ -1,3 +1,8 @@
+# OVERVIEW
+```
+lsblk
+```
+
 # START INTERACTIVE MODE
 ```
 fdisk /dev/sda
