@@ -10,13 +10,37 @@ interactive mode
 
 
 
-########## INTERACTIVE MODE ##########
-print                                   show partition
-mklabel gpt                             set partition table to gpt
-mkpart primary 1MiB 5GiB                primary part. from 1MiB to 5GiB
-mkpart primary linux-swap 5GiB 100%     making swap partition
-quit                                    exit parted
-resizepart 1 100%                       extend partition to 100% (this does not format the extended part)
+# INTERACTIVE MODE
+```
+print
+```
+show partition
+
+```
+mklabel gpt
+```
+set partition table to gpt
+
+```
+mkpart primary 1MiB 5GiB
+```
+primary part. from 1MiB to 5GiB
+
+```
+mkpart primary linux-swap 5GiB 100%
+```
+making swap partition
+
+```
+quit
+```
+exit parted
+
+
+```
+resizepart 1 100%
+```
+extend partition to 100% (this does not format the extended part)
 
 
 
