@@ -3,14 +3,12 @@
 ps -x
 ```
 # FLAGS
-background only
-`-x`
 
-full
-`-f`
+`-x` background only
 
-every user
-`-e`
+`-f` full
+
+`-e` every user
 
 
 
