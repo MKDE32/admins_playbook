@@ -5,9 +5,11 @@ CTRL-Z
 bg
 disown
 ```
-making an already executed command independent from the shell
 
-
+# EXPLAINED
+CTRL-Z pauses the process
+bg starts process again but in background
+disown making the process independent from the shell
 
 
 
