@@ -10,7 +10,15 @@ ps -x
 
 `-e` every user
 
+# PROCESS STATUS
 
+| Code  | Meaning               |
+| ----- | --------------------- |
+| **R** | Running               |
+| **S** | Sleeping              |
+| **D** | Uninterruptible sleep |
+| **T** | Stopped               |
+| **Z** | Zombie process        |
 
 
 
