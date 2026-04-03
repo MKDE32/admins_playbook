@@ -1,5 +1,10 @@
 # EXAMPLES
 ```
+net share
+```
+overview
+
+```
 net share ShareName
 ```
 show details
