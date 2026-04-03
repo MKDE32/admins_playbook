@@ -11,12 +11,12 @@ get-process | sort cpu -descending |select -first 3 -property id, processname, c
 
 # SORTING
 ## PROPERTIES
-`npm`
-`pm`
-`ws`
-`cpu`
-`id`
-`name` or `processname`
+`npm`  
+`pm`  
+`ws`  
+`cpu`  
+`id`  
+`name` or `processname`  
 
 
 
