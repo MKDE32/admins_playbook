@@ -2,7 +2,7 @@
 tail bla.txt
 ```
 
-`-f`         file  
+`-f`         real time updates  
 `-n 50`      lines showed
 
 
