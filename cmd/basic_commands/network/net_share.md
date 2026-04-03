@@ -21,14 +21,13 @@ delete
 
 
 # ACCESS
-## USERS
 `everyone`
+users
 
-## PERMISSIONS
 `read`  
 `change`  
 `full`
-
+permissions
 
 
 
