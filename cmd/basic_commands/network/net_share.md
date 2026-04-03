@@ -21,12 +21,12 @@ delete
 
 
 # ACCESS
-`everyone`
+`everyone`  
 users
 
 `read`  
 `change`  
-`full`
+`full`  
 permissions
 
 
