@@ -4,11 +4,15 @@ ps -x
 ```
 # FLAGS
 
-`-x` background only
+`-x` shows daemons too
 
 `-f` full
 
 `-e` every user
+
+`a` TTY processes of all users
+
+`u` user oriented format
 
 # PROCESS STATUS
 
