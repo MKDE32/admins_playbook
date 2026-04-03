@@ -6,7 +6,7 @@ kill PID
 
 
 # FLAGS
-`-KILL` force killing  
+`-KILL` force instant killing  
 `-TSTP` pause process  
 `-CONT` permanent signal
 
