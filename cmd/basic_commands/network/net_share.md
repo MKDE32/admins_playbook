@@ -17,12 +17,12 @@ delete
 
 # ACCESS
 ## USERS
-everyone
+`everyone`
 
 ## PERMISSIONS
-read
-change
-full
+`read`  
+`change`  
+`full`
 
 
 
