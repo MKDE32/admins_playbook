@@ -1,6 +1,6 @@
 # EXAMPLE
 ```
-kill PID
+kill PID PID PID
 ```
 
 
