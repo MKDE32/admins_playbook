@@ -1,6 +1,6 @@
 # EXAMPLE
 ```
-kill PID PID PID
+kill -flag PID1 PID2 PID3
 ```
 
 
