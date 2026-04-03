@@ -1,11 +1,18 @@
 # EXAMPLES
-## SHOW DETAILS
+```
 net share ShareName
-## CREATE
-net share PublicDocs=C:\Users\Public\Documents /GRANT:Everyone,FULL
-## DELETE
-net share PublicDocs /delete
+```
+show details
 
+```
+net share PublicDocs=C:\Users\Public\Documents /GRANT:Everyone,FULL
+```
+create
+
+```
+net share PublicDocs /delete
+```
+delete
 
 
 # ACCESS
