@@ -2,7 +2,7 @@
 tail bla.txt
 ```
 
-`-f`         file
+`-f`         file  
 `-n 50`      lines showed
 
 
