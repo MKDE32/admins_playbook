@@ -1,12 +1,30 @@
-# WALKTHROUGH
+# PREPARING
+```
+lsblk -b
+```
+or
+```
+blockdev --getsize64 /dev/sdb
+```
+checking exact disksize
+
 ```
 unmount /dev/sdd
 ```
-usb unmounten
+usb unmount
+
+
+# CLONING WITH DD
 ```
 sudo dd if=/dev/sdd of=~/Desktop/image.img bs=8M status=progress
 ```
-save image of usb to desktop
+cloning drive to desktop
+
+```
+dd if=/dev/sdb1 of=partition.img
+```
+cloning a partition
+
 
 # INFO
 -dd copys byte by byte  
