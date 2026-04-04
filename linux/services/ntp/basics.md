@@ -1,11 +1,13 @@
+# OVERVIEW
 ```
 service ntp status
 ```
 
 ```
-service ntp stop
+date
 ```
 
+# REFRESH TIME
 ```
-service ntp start
+sudo service ntp restart
 ```
