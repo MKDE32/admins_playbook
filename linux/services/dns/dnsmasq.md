@@ -1,0 +1,14 @@
+```
+sudo apt install dnsmasq
+```
+
+
+
+
+
+
+
+
+
+
+
