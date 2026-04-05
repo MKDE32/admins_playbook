@@ -21,3 +21,33 @@ sudo service WHATEVER start
 sudo service WHATEVER stop
 ```
 
+# LOGGER
+```
+logger "test log"
+```
+
+```
+sudo tail -5 /var/log/syslog
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
