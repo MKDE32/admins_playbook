@@ -15,7 +15,7 @@ sudo apt install dnsmasq
 `domain=EXAMPLE`  
 `dhcp-option=option:router,IPADDR`  
 `dhcp-option=option:dns-server,IPADDR`  
-`dhcp-range=FROM,TO,12h` here 12 hours
+`dhcp-range=FROM,TO,12h` here 12 hours leasing time
 
 
 
