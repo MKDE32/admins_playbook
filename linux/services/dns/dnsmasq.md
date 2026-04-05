@@ -8,6 +8,7 @@ sudo apt install dnsmasq
 `-q` queries logging  
 `-H WHATEVER.txt` adding hostfile, format: `IPADDR DNSADR`  
 `-C /etc/dhcp.conf` using this conf dat
+`--test` verifys the correct syntax of `-C`
 
 # DHCP.CONF 
 ## PLACES
