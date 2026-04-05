@@ -1,0 +1,12 @@
+```
+dig REQESTEDURL @DNSSERVER
+```
+
+
+
+
+
+
+
+
+
