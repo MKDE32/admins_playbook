@@ -26,9 +26,9 @@ Add or switch backup accounts
 What gets backed up
 
 ## Manually back up data & settings
-    On your Android device, open your device's Settings app.
-    Tap Google and then All services.
-    Under “Backup and restore,” tap Backup and then Back up now.
+On your Android device, open your device's Settings app.
+Tap Google and then All services.
+Under “Backup and restore,” tap Backup and then Back up now.
 
 ## Erase after backing up
 After you back up, you can reset your device by erasing everything on it. Learn how to reset your device to factory settings.
