@@ -1,5 +1,9 @@
 # OVERVIEW
 ```
+sudo service --status-all
+```
+
+```
 sudo service WHATEVER status
 ```
 
