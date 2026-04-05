@@ -20,8 +20,9 @@ sudo apt install dnsmasq
 `domain=EXAMPLE`  
 `dhcp-option=option:router,IPADDR`  
 `dhcp-option=option:dns-server,IPADDR`  
-`dhcp-range=FROM,TO,12h` here 12 hours leasing time
-
+`dhcp-range=FROM,TO,12h` here 12 hours leasing time  
+`log-queries` start of log queries  
+`log-facility=/var/log/dnsmasq.log` log query
 
 
 
