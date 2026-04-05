@@ -23,12 +23,10 @@ sudo service WHATEVER stop
 
 # LOGGER
 ```
-logger "test log"
+logger "TEST TEST 123"
 ```
+writinhg a testentry in /var/log/syslog  
 
-```
-sudo tail -5 /var/log/syslog
-```
 
 
 
