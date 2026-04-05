@@ -9,7 +9,7 @@ sudo apt install dnsmasq
 `-H WHATEVER.txt` adding hostfile, format: IPADDR DNSADR
 
 # DHCP.CONF
-`/etc/dhcp.conf`  
+/etc/dhcp.conf  
 `interface=WHATEVER`  
 `bind-interfaces`  
 `domain=EXAMPLE`  
