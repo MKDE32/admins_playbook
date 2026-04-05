@@ -2,8 +2,11 @@
 ```
 Install-WindowsFeature Web-WebServer,Web-Mgmt-Tools -IncludeAllSubFeature
 ```
-installing iis
+installing iis  
 
+```
+get-service iisadmin
+```
 
 
 
