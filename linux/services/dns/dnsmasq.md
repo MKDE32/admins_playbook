@@ -12,7 +12,7 @@ sudo apt install dnsmasq
 
 # DHCP.CONF 
 ## PLACES
-`/etc/dhcp.conf` main conf file
+`/etc/dhcp.conf` main conf file  
 `/etc/dnsmasq.d` common included file
 - `conf-dir=/etc/dnsmasq.d` included files
 
