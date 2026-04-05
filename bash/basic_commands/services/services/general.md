@@ -1,0 +1,11 @@
+```
+sudo service WHATEVER status
+```
+
+
+
+
+
+
+
+
