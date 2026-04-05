@@ -11,6 +11,7 @@ sudo apt install dnsmasq
 
 # DHCP.CONF
 /etc/dhcp.conf  
+
 `interface=WHATEVER`  
 `bind-interfaces`  
 `domain=EXAMPLE`  
