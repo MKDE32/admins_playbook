@@ -9,11 +9,11 @@ sudo apt install dnsmasq
 `-H WHATEVER.txt` adding hostfile, format: IPADDR DNSADR
 
 # DHCP.CONF
-`/etc/dhcp.conf
-interface=WHATEVER
-bind-interfaces
-domain=EXAMPLE
-dhcp-option=option:router,IPADDR
+`/etc/dhcp.conf  
+interface=WHATEVER  
+bind-interfaces  
+domain=EXAMPLE  
+dhcp-option=option:router,IPADDR  
 dhcp-option=option:dns-server,IPADDR`
 
 
