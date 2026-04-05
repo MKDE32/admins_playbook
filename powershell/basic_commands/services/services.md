@@ -16,9 +16,10 @@ start-service WHATEVER
 stop-service WHATEVER 
 ```
 
-
-
-
+# SET START TYPE
+```
+Set-Service WHATEVER -StartupType Manual
+```
 
 
 
