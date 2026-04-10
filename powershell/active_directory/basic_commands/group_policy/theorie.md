@@ -11,9 +11,10 @@ gpmc.msc
 # INHERITANCE
 ## ORDER
 local → site → domain → ou (parent → child)
-- later = stronger
-- eg. ou overwrites domain
-
+- closest gpo to the object wins
+ - eg. ou overwrites domain
+- block inheritance	stops higher gpos
+- enforced beats everything
 
 
 
