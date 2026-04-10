@@ -2,10 +2,10 @@
 gpmc.msc
 
 # CONFIG
-## computer config
+## COMPUTER CONFIG
 - each time windows logs into active directory (after boot)
 
-## user config
+## USER CONFIG
 - each time when a user logs into windows
 
 # INHERITANCE
