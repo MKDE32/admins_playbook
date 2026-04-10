@@ -2,8 +2,10 @@
 ```
 $env:LOGONSERVER
 ```
-
-
+OR
+```
+%LOGONSERVER%
+```
 
 
 
