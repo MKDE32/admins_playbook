@@ -1,3 +1,6 @@
+### group policy editor
+gpmc.msc
+
 
 ### computer config
 - each time windows logs into active directory (after boot)
