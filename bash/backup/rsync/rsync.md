@@ -32,7 +32,7 @@ rsync -av --delete source/ backup/
 `dry-run` test run
 
 # INFO
-`source/`   → copies contents
+`source/`   → copies contents  
 `source`    → copies folder itself
 
 
