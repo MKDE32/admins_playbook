@@ -1,8 +1,9 @@
 # LOGONSERVER
+## PS
 ```
 $env:LOGONSERVER
 ```
-OR
+## CMD
 ```
 %LOGONSERVER%
 ```
