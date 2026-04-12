@@ -4,15 +4,15 @@ sudo tcpdump -i INTERFACE ip and host example.com
 ```
 
 # FLAGS
-`tcpdump -i any`
-
-
-
-
-
-
-
-
-
-
+`tcpdump -i any` set interface  
+`-n` shows no dns  
+`-nn` shows no dns and no portname  
+`-X` shows hex + ascii  
+`-A` shows ascii only  
+`-w file.pcap` write to file  
+`-r file.pcap` read from file  
+``
+``
+``
+``
 
