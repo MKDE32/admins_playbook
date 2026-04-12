@@ -14,8 +14,8 @@ sudo tcpdump -i INTERFACE ip and host example.com
 `-r file.pcap` read from file  
 
 ## FILTER
-`host IPADDR`
-`src IPADDR`
-`dst IPADDR`
-`port`
-`net 192.168.0.0/24`
+`host IPADDR`  
+`src IPADDR`  
+`dst IPADDR`  
+`port PORT`  
+`net IPADDR/CIDR`
