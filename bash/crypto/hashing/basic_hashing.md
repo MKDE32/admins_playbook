@@ -6,7 +6,7 @@ md5sum file.txt > file.txt.md5
 md5sum -c file.txt.md5
 ```
 
-SHA 1
+# SHA 1
 ```
 shasum file.txt > file.txt.sha1
 ```
