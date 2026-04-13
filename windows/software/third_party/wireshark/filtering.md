@@ -30,6 +30,11 @@ eth.addr == aa:bb:cc:dd:ee:ff
 eth.src == aa:bb:cc:dd:ee:ff  
 eth.dst == aa:bb:cc:dd:ee:ff  
 
+## FRAME
+frame.len > 1000  
+frame.time_delta > 1  
+frame.number == 100  
+
 
 
 # LAYER 3
@@ -124,9 +129,7 @@ tls.handshake.extensions_server_name == "example.com"
 
 
 
-frame.len > 1000
-frame.time_delta > 1
-frame.number == 100
+
 
 
 
