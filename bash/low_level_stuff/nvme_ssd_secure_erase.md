@@ -3,12 +3,18 @@
 ```
 sudo apt update && sudo apt install nvme-cli
 ```
+
 ## LIST NVME DEVICES
 ```
 sudo nvme list
 ```
 
-## STATUS
+## SHOW CONTROLER INFO
+```
+nvme id-ctrl /dev/nvme0
+```
+
+## SHOWS SMART HEALTH INFO
 ```
 sudo nvme sanitize-log /dev/nvme0n1
 ```
