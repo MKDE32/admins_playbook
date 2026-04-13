@@ -23,6 +23,19 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
 - deletes flash blocks
 - faster than overwriting
 
+## CRYPTO ERASE
+```
+sudo nvme sanitize /dev/nvme0n1 --sanact=0x4
+```
+- deletes decryption key
+- very fast
+- very safe
+- only possible if hardware (sed) encrypted
+
+
+
+
+
 
 # NVME FORMAT
 ```
