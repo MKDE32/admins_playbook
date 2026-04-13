@@ -2,7 +2,7 @@
 - Samsung Magician
 - Western Digital Dashboard
 - Crucial Storage Executive
-> use secure erase!
+use secure erase!
 
 # HIRENS BOOT
 at the moment of writing i dont know if there exists tools to really low level format ssds and  
