@@ -73,6 +73,7 @@ tcp.window_size < 1000
 ## HTTP
 http  
 http.request  
+http.request.uri matches "q=wireshark"  
 http.response  
 http.host == "example.com"  
 http.request.method == "GET"  
