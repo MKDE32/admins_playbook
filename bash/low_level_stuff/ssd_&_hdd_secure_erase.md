@@ -1,8 +1,9 @@
 # SECURE ERASE USING HDPARM
+- to force the firmware to low level erase u first need to set a password
 ```
 sudo hdparm --user-master u --security-set-pass pass /dev/sdX
 ```
-
+- then erase it. the enhanced flag is more thorough
 ```
 sudo hdparm --user-master u --security-erase-enhanced pass /dev/sdX
 ```
