@@ -1,7 +1,7 @@
 # OVERVIEW
 ## INSTALL
 ```
-sudo apt update & sudo apt install nvme-cli
+sudo apt update && sudo apt install nvme-cli
 ```
 ## LIST NVME DEVICES
 ```
