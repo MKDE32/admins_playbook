@@ -1,4 +1,4 @@
-# CONTROLER LEVEL ERASE
+# CONTROLER LEVEL ERASE (very thorough)
 ## STATUS
 ```
 sudo nvme sanitize-log /dev/nvme0n1
