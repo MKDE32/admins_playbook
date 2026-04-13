@@ -1,9 +1,23 @@
-# CONTROLER LEVEL ERASE (very thorough)
+# OVERVIEW
+## INSTALL
+```
+sudo apt update & sudo apt install nvme-cli
+```
+## LIST NVME DEVICES
+```
+sudo nvme list
+```
+
 ## STATUS
 ```
 sudo nvme sanitize-log /dev/nvme0n1
 ```
 
+
+
+
+
+# CONTROLER LEVEL ERASE (very thorough)
 ## EXAMPLE
 ```
 sudo nvme sanitize /dev/nvme0n1 --sanact=0x2
@@ -28,16 +42,13 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x2
   - very fast
   - only possible if hardware (sed) encrypted
 
-# LOGICAL LEVEL ERASE (faster)
-## INSTALL
-```
-sudo apt update & sudo apt install nvme-cli
-```
-## EXAMPLE
-```
-sudo nvme list
-```
 
+
+
+
+# LOGICAL LEVEL ERASE (faster)
+
+## EXAMPLE
 ```
 sudo nvme format /dev/nvme0n1 --ses=2
 ```
