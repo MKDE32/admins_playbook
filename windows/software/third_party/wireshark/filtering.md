@@ -40,6 +40,11 @@ ip.dst == 192.168.1.1
 ip.addr == 192.168.1.0/24  
 !(ip.addr == 192.168.1.1)  
 
+## ICMP
+icmp  
+icmp.type == 8  
+icmp.type == 0  
+
 
 
 # LAYER 4
@@ -67,6 +72,12 @@ http.response
 http.host == "example.com"  
 http.request.method == "GET"  
 http contains "login"  
+
+## DNS
+dns  
+dns.query.name == "example.com"   
+dns.flags.response == 0  
+dns.flags.rcode != 0  
 
 ## TLS
 tls  
@@ -100,16 +111,11 @@ tls.handshake.extensions_server_name == "example.com"
 
 
 
-icmp
-icmp.type == 8
-icmp.type == 0
 
 
 
-dns
-dns.query.name == "example.com"
-dns.flags.response == 0
-dns.flags.rcode != 0
+
+
 
 
 
