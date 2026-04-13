@@ -12,14 +12,13 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
 ## FLAGS
 ### BLOCK ERASE
 - `--sanact=0x2`
-  - deletes flash blocks at controler level
+  - deletes flash blocks directly without any mapping
   - faster than overwriting
-  - deletes controler based mapping too
-  - thats why very thorough
+  - very thorough
 
 ### OVERWRITE
 - `--sanact=0x3`
-  - overwriting nand cell
+  - overwriting nand cells
   - exhausting for the ssd
   - may not hit every nand cell
 
@@ -28,7 +27,6 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
   - deletes decryption key
   - very fast
   - only possible if hardware (sed) encrypted
-  - standart
 
 # LOGICAL LEVEL ERASE (faster)
 ## INSTALL
