@@ -20,7 +20,8 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x2
 ```
 sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
 ```
-
+- deletes flash blocks
+- faster than overwriting
 
 
 # NVME FORMAT
