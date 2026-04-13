@@ -10,20 +10,20 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
 ```
 
 ## FLAGS
-## OVERWRITE
+### OVERWRITE
 - `--sanact=0x2`
   - overwriting every nand cell
   - thorough
   - exhausting for the ssd
 
-## BLOCK ERASE
+### BLOCK ERASE
 - `--sanact=0x3`
   - deletes flash blocks
   - faster than overwriting
   - thorough
 
 
-## CRYPTO ERASE
+### CRYPTO ERASE
 - `--sanact=0x4`
   - deletes decryption key
   - very fast
@@ -32,10 +32,11 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
   - thorough
 
 # LOGICAL LEVEL ERASE
+## INSTALL
 ```
 sudo apt update & sudo apt install nvme-cli
 ```
-
+## EXAMPLE
 ```
 sudo nvme list
 ```
