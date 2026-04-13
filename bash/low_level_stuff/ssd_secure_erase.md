@@ -12,7 +12,7 @@ sudo hdparm --user-master u --security-erase pass /dev/sdX
 - Crucial Storage Executive
 - Intel Memory and Storage Tool
 
-# NVME TOOLS
+# NVME SECURE ERASE
 ```
 sudo apt update
 sudo apt install nvme-cli
