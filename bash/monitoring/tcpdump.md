@@ -10,7 +10,7 @@ jobs -l
 ```
 
 ## EXECUTE YOUR APP NOW
-curl whatever.site
+`curl whatever.site`
 
 ## GET TCPDUMP IN FOREGROUND AGAIN
 ```
