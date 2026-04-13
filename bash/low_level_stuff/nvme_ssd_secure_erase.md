@@ -46,9 +46,9 @@ sudo nvme format /dev/nvme0n1 --ses=1
 
 ## FLAGS
 `--ses=1` 
- - `0` normal
+ - `0` normal namespace level erase
  - `1` crypto erase (only possible if device has a hardware encryption)
- - `2` user data erase
+ - `2` advanced namespace level erase
 
 
 
