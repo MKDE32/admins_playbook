@@ -1,4 +1,4 @@
-# ATA SECURE ERASE
+# ATA SECURE ERASE (HDD & SSD)
 ```
 sudo hdparm --user-master u --security-set-pass pass /dev/sdX
 ```
@@ -6,11 +6,6 @@ sudo hdparm --user-master u --security-set-pass pass /dev/sdX
 ```
 sudo hdparm --user-master u --security-erase pass /dev/sdX
 ```
-
-# MANUFACTURER TOOLS
-- Samsung Magician
-- Crucial Storage Executive
-- Intel Memory and Storage Tool
 
 # NVME SECURE ERASE
 ```
@@ -26,7 +21,10 @@ sudo nvme list
 sudo nvme format /dev/nvme0n1 --ses=1
 ```
 
-
+# MANUFACTURER TOOLS
+- Samsung Magician
+- Crucial Storage Executive
+- Intel Memory and Storage Tool
 
 
 
