@@ -1,12 +1,22 @@
-# EXAMPLE
-## AND
-```
-sudo tcpdump -i INTERFACE ip and host example.com
-```
-## EXECUTING IN BACKGROUND
+# EXAMPLES
+## CAPTURE IN BACKGROUND
 ```
 sudo tcpdump -i eth0 -vn host 8.8.8.8 and port 53 &
 ```
+
+## WRITE DOWN JOB-ID
+```
+jobs -l
+```
+
+## EXECUTE YOUR APP NOW
+curl whatever.site
+
+## GET TCPDUMP IN FOREGROUND AGAIN
+```
+fg % [job-id]
+```
+
 
 
 
