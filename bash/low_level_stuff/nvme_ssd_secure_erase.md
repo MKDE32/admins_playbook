@@ -32,10 +32,7 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x4
 
 
 
-
-
-
-# NVME FORMAT
+# LOGICAL LEVEL ERASE
 ```
 sudo apt update & sudo apt install nvme-cli
 ```
