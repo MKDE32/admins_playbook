@@ -39,7 +39,7 @@ sudo nvme list
 ```
 
 ```
-sudo nvme format /dev/nvme0n1 --ses=1
+sudo nvme format /dev/nvme0n1 --ses=2
 ```
 
 ## FLAGS
