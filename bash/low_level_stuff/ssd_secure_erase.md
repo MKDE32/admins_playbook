@@ -2,6 +2,7 @@
 ```
 sudo hdparm --user-master u --security-set-pass pass /dev/sdX
 ```
+
 ```
 sudo hdparm --user-master u --security-erase pass /dev/sdX
 ```
@@ -18,7 +19,11 @@ sudo apt install nvme-cli
 ```
 
 ```
-nvme format /dev/nvme0n1
+sudo nvme list
+```
+
+```
+sudo nvme format /dev/nvme0n1 --ses=1
 ```
 
 
