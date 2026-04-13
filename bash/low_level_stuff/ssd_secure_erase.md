@@ -13,6 +13,11 @@ sudo hdparm --user-master u --security-erase pass /dev/sdX
 
 # NVME TOOLS
 ```
+sudo apt update
+sudo apt install nvme-cli
+```
+
+```
 nvme format /dev/nvme0n1
 ```
 
