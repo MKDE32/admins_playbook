@@ -30,7 +30,7 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
   - only possible if hardware (sed) encrypted
   - standart
 
-# LOGICAL LEVEL ERASE
+# LOGICAL LEVEL ERASE (faster)
 ## INSTALL
 ```
 sudo apt update & sudo apt install nvme-cli
