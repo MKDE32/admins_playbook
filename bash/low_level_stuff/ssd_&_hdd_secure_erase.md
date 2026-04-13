@@ -31,11 +31,13 @@ sudo hdparm -I /dev/sdX
 
 # MANUFACTURER TOOLS
 - Samsung Magician
-- Crucial Storage Executive
+ - provides a linux based bootable iso
 - Intel Memory and Storage Tool
-
-
-
+ - provides a linux version
+- Crucial Storage Executive
+ - windows only
+- western digital/ san disk
+ - mostly windows
 
 
 
