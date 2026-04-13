@@ -14,7 +14,8 @@ sudo nvme sanitize-log /dev/nvme0n1
 sudo nvme sanitize /dev/nvme0n1 --sanact=0x2
 ```
 - overwriting every nand cell
-- very thorough
+- thorough
+- exhausting for the ssd
 
 ## BLOCK ERASE
 ```
@@ -22,6 +23,7 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
 ```
 - deletes flash blocks
 - faster than overwriting
+- thorough
 
 ## CRYPTO ERASE
 ```
@@ -31,6 +33,7 @@ sudo nvme sanitize /dev/nvme0n1 --sanact=0x4
 - very fast
 - very safe
 - only possible if hardware (sed) encrypted
+- thorough
 
 
 
