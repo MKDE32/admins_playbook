@@ -17,7 +17,7 @@ sudo hdparm --user-master u --security-erase-enhanced pass /dev/sdX
 ```
 sudo hdparm -I /dev/sdX
 ```
->     frozen
+> frozen
 
 ```
 systemctl suspend
