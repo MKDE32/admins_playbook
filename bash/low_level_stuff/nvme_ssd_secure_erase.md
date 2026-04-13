@@ -6,7 +6,7 @@ sudo nvme sanitize-log /dev/nvme0n1
 
 ## EXAMPLE
 ```
-sudo nvme sanitize /dev/nvme0n1 --sanact=0x3
+sudo nvme sanitize /dev/nvme0n1 --sanact=0x2
 ```
 
 ## FLAGS
