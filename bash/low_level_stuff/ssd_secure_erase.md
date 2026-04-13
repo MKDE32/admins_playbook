@@ -9,8 +9,7 @@ sudo hdparm --user-master u --security-erase pass /dev/sdX
 
 # NVME SECURE ERASE
 ```
-sudo apt update
-sudo apt install nvme-cli
+sudo apt update & sudo apt install nvme-cli
 ```
 
 ```
