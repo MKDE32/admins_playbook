@@ -1,14 +1,9 @@
-1. Download
+# Download
 
-Go to:
-👉 https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 
-Select:
+`https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX`
 
-Product: XP-215
-OS: Linux
 
-Download:
 
 iscan-bundle-*.x64.deb.tar.gz
 ⚙️ 2. Install
