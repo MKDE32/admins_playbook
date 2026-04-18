@@ -42,7 +42,7 @@ ZEIGT ADB LOGS AN
 ```
 adb logcat
 ```
-In den Logs können zb bei einer unsicher programmierten App unter Umständen die Login Daten/Passwörter enthalten sein
+
 
 
 
