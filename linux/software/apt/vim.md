@@ -1,12 +1,11 @@
-insert mode
-i
-normales schreiben
+# INPUT
+`i` insert mode
 
-Command mode
-ESC
-befehle siehe unten
+# COMMAND MODE
+`ESC`
 
-:wq - 	to save and exit
-:q!  - 	quit and trash all changes
-A - 		to append text at the end
-u 			undo
+# COMMANDS
+`:wq`	to save and exit
+`:q!`	quit and trash all changes
+`A`	to append text at the end
+`u`	undo
