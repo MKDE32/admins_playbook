@@ -1,0 +1,7 @@
+Serversignatur abschalten
+
+<Directory /var/www/html>
+			AllowOverride All
+			Options -Indexes
+			ServerSignature off
+</Directory>
