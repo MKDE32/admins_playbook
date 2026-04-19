@@ -73,11 +73,79 @@ sudo iptables -P OUTPUT ACCEPT
 
 
 
-# BLOCK IP MANUALLY
+# BLOCK MANUALLY
+## IP
 ```
 iptables -A INPUT -s 14.23.59.9 -J DROP
 iptables -A INPUT -s 192.168.178.0/24 -J DROP
 ```
+## MAC
+```
+-m mac --mac-source 00:08:27:25:7f:20 -j DROP
+```
+
+
+
+
+
+# ALLOW LOOPBACK
+```
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -i lo -j ACCEPT
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
