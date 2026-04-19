@@ -73,9 +73,11 @@ sudo iptables -P OUTPUT ACCEPT
 
 
 
-
-
-
+# BLOCK IP MANUALLY
+```
+iptables -A INPUT -s 14.23.59.9 -J DROP
+iptables -A INPUT -s 192.168.178.0/24 -J DROP
+```
 
 
 
