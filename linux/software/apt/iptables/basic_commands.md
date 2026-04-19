@@ -63,8 +63,11 @@ accept ip adress
 
 
 
-
-
+# SET STANDART POLICY
+```
+sudo iptables -P INPUT DROP
+sudo iptables -P OUTPUT ACCEPT
+```
 
 
 
