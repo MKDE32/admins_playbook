@@ -98,9 +98,10 @@ iptables -A OUTPUT -i lo -j ACCEPT
 
 
 
-
-
-
+# MOVE
+```
+sudo iptables --move <chain> <source-rank> <dest-rank>
+```
 
 
 
