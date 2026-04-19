@@ -107,10 +107,10 @@ sudo iptables --move <chain> <source-rank> <dest-rank>
 
 
 
-
-
-
-
+# MULTIPORT
+```
+iptables -A INPUT -p tcp -m multiport --dports 22,23 -j DROP
+```
 
 
 
