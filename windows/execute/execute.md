@@ -14,15 +14,15 @@
 `gpedit`
 
 ## SECURITY / RESTORE
-`rstrui`  
+`rstrui` system restore  
 `tpm.msc`  
 `uac`  
 
 
 
 # AUTORUN
-`shell:startup`  
-`shell:common startup`
+`shell:startup` users  
+`shell:common startup` all users  
 
 
 
