@@ -39,10 +39,10 @@ ipconfig /flushdns
 ```
 
 
-# IF NOTHING HELPS
+# DELETE NETWORK ADAPTER
 ```
-devmgmt.msc          delete network adapter
+devmgmt.msc
 ```
-
+if nothing else helps
 
 
