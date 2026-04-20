@@ -3,7 +3,7 @@
 dism /image:c:\ /get-packages
 ```
 
-# ALTERNATIVE WRITE UPDATES TO FILE AND READ IT
+# WRITE UPDATES TO FILE AND READ IT
 ```
 dism /image:c:\ /get-packages C:\updates.txt
 type c:\updates.txt
