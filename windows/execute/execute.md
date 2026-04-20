@@ -4,6 +4,7 @@
 `msinfo32`  
 
 ## TROUBLESHOOT
+`psr` schrittaufzeichnung
 `resmon`  
 `eventvwr`  
 `perfmon /report` systemintegrety report  
