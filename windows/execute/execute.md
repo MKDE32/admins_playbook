@@ -1,5 +1,6 @@
 # OS
 ## SYSINFO
+`winver`
 `msinfo32`  
 
 ## MONITORING
@@ -8,13 +9,13 @@
 
 ## PROPERTYS
 `control`  
-`devmgmt.msc`  
+`compmgmt.msc`  
 `regedit`  
 `msconfig`  
 `gpedit`
 
 ## SECURITY / RESTORE
-`rstrui` system restore  
+`wscui.cpl` firewall, antivir, restore
 `tpm.msc`  
 `uac`  
 
