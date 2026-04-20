@@ -6,16 +6,18 @@
 ## MONITORING
 `resmon`  
 `eventvwr`  
+`perfmon.exe`
 
 ## PROPERTYS
 `control`  
 `compmgmt.msc`  
 `regedit`  
 `msconfig`  
-`gpedit`
+`gpedit`  
+`appwiz.cpl` apps  
 
 ## SECURITY / RESTORE
-`wscui.cpl` firewall, antivir, restore
+`wscui.cpl` firewall, antivir, restore  
 `tpm.msc`  
 `uac`  
 
