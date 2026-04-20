@@ -9,6 +9,7 @@
 `perfmon.exe`
 
 ## PROPERTYS
+`mmc` datei >>> snap in hinzufügen klicken  
 `control`  
 `compmgmt.msc`  
 `regedit`  
@@ -36,7 +37,6 @@
 `winword.exe /a` word no macros  
 `winword /safe` word safe mode  
 `firefox -P` ff profile  
-
 
 
 
