@@ -1,6 +1,6 @@
 # OS
 ## SYSINFO
-`winver`
+`winver`  
 `msinfo32`  
 
 ## MONITORING
