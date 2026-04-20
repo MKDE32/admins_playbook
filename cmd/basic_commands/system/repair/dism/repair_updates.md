@@ -1,0 +1,20 @@
+# SHOW UPDATES
+```
+dism /image:c:\ /get-packages
+```
+
+# ALTERNATIVE WRITE UPDATES TO FILE AND READ IT
+```
+dism /image:c:\ /get-packages C:\updates.txt
+type c:\updates.txt
+```
+
+# DELETE A SPECIFIC PACKAGE
+```
+dism /image:c:\ /remove-package /packagename:<PACKAGENAME> /scratchdir:c:\windows\temp
+```
+
+# DELETE ALL PENDING UPDATES
+```
+dism /image:c:\ /cleanup-image /revertpendingactions
+```
