@@ -3,7 +3,7 @@
 `msinfo32`  
 
 ## MONITORING
-`resmon`
+`resmon`  
 `eventvwr`  
 
 ## PROPERTYS
@@ -30,11 +30,9 @@
 `programm.exe /?` help  
 `programm.exe --help` help  
 `cmd /C “ping 8.8.8.8”` execute a command  
-`winword.exe /a`  
-`winword /safe`  safe mode  
-`excel.exe /safe`  
-`powerpoint.exe /safe`  
-`firefox -P`  
+`winword.exe /a` word no macros  
+`winword /safe` word safe mode  
+`firefox -P` ff profile  
 
 
 
