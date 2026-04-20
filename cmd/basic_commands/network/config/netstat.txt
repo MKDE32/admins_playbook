@@ -1,0 +1,4 @@
+zeigt TCP/IP-Verbindungen und ihren Status an
+
+VERBINDUNGEN ANZEIGEN
+netstat -a -b -f
