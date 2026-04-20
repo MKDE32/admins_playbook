@@ -1,0 +1,8 @@
+generiert einen Energiereport als xml file
+powercfg /energy
+
+zeigt zustand des Akkus an
+powercfg /batteryreport
+
+zeigt warum aus energiesparmodus aufgewacht
+powercfg -lastwake
