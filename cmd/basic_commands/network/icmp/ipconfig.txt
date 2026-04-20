@@ -1,0 +1,12 @@
+zeigt Netzwerkkonfiguration
+ipconfig
+
+zeigt Netzwerkkonfiguration
+ipconfig /all
+
+leert den dns cache
+ipconfig /flushdns
+
+Initiiert die manuelle dynamische Registrierung für die DNS-Namen und IP-Adressen,
+die auf einem Computer konfiguriert sind.
+ipconfig /registerdns
