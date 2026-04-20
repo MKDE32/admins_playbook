@@ -2,19 +2,31 @@ as of Windows 8.1, Windows 10 und Windows Server 2012 R2
 
 # EXAMPLES
 ```
-DISM /Online /Cleanup-image /CheckHealth
-```
-Überprüft auf Probleme im Komponentenspeicher
-
-```
 DISM /Online /Cleanup-image /ScanHealth
 ```
-Überprüft ebenfalls auf Probleme im Komponentenspeicher, ist gründlicher und dauert länger
+Überprüft auf Probleme im Komponentenspeicher, ist gründlicher als `/CheckHealth`
 
 ```
 DISM /Online /Cleanup-image /RestoreHealth
 ```
 Repariert Probleme im Komponentenspeicher
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
