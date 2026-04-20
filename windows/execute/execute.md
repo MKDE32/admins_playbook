@@ -3,10 +3,11 @@
 `winver`  
 `msinfo32`  
 
-## MONITORING
+## TROUBLESHOOT
 `resmon`  
 `eventvwr`  
-`perfmon.exe`
+`perfmon /report` systemintegrety report  
+`mdsched` ram testing  
 
 ## PROPERTYS
 `mmc` datei >>> snap in hinzufügen klicken  
