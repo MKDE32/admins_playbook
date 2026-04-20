@@ -19,7 +19,7 @@ Eigenschaften des Benutzers “administrator” anzeigen
 `/add` add user  
 `/active:yes` Aktivieren des Benutzers administrator, benötigt Adminrechte  
 `/del` delete user  
-
+`/domain` using domainaccounts
 
 
 
