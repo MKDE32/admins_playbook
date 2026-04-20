@@ -1,4 +1,4 @@
-# SHOW
+# EXAMPLES
 ```
 net user
 ```
@@ -11,6 +11,8 @@ Eigenschaften des Benutzers “administrator” anzeigen
 
 
 
+
+
 # FLAGS
 `*` change pw
 `/logonpasswordchg:yes` force pw change by user
@@ -19,10 +21,6 @@ Eigenschaften des Benutzers “administrator” anzeigen
 `/del` delete user
 
 
-Passwort des Benutzers max ändern
-C:\Users\ste>net user max *
-Geben Sie ein Kennwort für den Benutzer ein:
-benötigt keine Adminrechte
 
 
 
