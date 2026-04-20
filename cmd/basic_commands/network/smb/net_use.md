@@ -1,0 +1,4 @@
+# SHOW SHARE
+```
+net use
+```
