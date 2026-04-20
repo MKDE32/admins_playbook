@@ -1,0 +1,44 @@
+
+
+
+
+
+Achtung! Ohne die Zertifikate kann nicht wieder entschlüsselt werden!
+Die Zertifikate können unter “Computerzertifikate verwalten” exportiert und somit gebackuped werden!
+
+
+encrypt folder that doesnt already contain data
+cipher /e C:/folder
+
+encrypt folder that already contain data
+cipher /e /s:C:/folder
+
+
+
+
+
+decrypt
+cipher /d C:/folder
+
+
+
+
+entfernt Daten aus verfügbarem, nicht verwendetem Speicherplatz auf der Festplatte. Alle anderen Optionen werden ignoriert. Auch die Daten in der MFT (Master File Table) werden entfernt.
+Cipher überschreibt nur den freien Speicherplatz und löscht keine vorhandenen Dateien
+
+
+überschreibt alle gelöschten Daten 3x mit Nullen, Einsen und  Zufallszahlen im Rootverzeichnis des angegebenen Laufwerks und  verhindert so deren Wiederherstellung:
+cipher /w:C:\ 
+ 
+Will man das gesamte Volume überschreiben (nur den freien Speicherplatz), darf der Backslash hinter dem Doppelpunkt des  Laufwerksbuchstaben NICHT angegeben werden:
+cipher /w:C:
+
+
+
+
+
+
+
+
+
+
