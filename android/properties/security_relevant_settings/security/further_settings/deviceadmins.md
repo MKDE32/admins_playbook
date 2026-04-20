@@ -1,0 +1,19 @@
+this apps have extended permissions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
