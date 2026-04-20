@@ -1,0 +1,25 @@
+Firewall on/off schalten (alle, das aktuelle, Domänen, Privates, Öffentliches Profil)
+netsh advfirewall set allprofiles state off
+netsh advfirewall set currentprofile state off
+netsh advfirewall set Domainprofile state off
+netsh advfirewall set Privateprofile state off
+netsh advfirewall set Publicprofile state off
+
+Firewall zurücksetzen
+netsh advfirewall reset
+
+zeigt wlan benutzerprofile (name des accesspoints)
+netsh wlan show profiles
+
+zeigt detailinformationen des accesspoints
+netsh wlan show profiles TP-Link_CBFC
+
+zeigt das in Windows gespeicherte WLAN Passwort in Klartext
+netsh wlan show profile "TP-Link_CBFC" key=clear
+!!!funktionier scheinbar sogar ohne Adminrechte!!!
+
+zeigt die mtu an (standart 1500)
+netsh interface ip4 show subinterfaces
+
+generiert einen WLAN report
+netsh wlan show wlanreport
