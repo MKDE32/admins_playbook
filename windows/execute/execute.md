@@ -1,16 +1,26 @@
-# OS #####
-msconfig  
+# OS
+## SYSINFO
 msinfo32  
-regedit  
-rstrui  
+
+## MONITORING
+resmon
 eventvwr  
+
+## PROPERTYS
+control  
+devmgmt.msc  
+regedit  
+msconfig  
+gpedit
+
+## SECURITY / RESTORE
+rstrui  
 tpm.msc  
 uac  
-devmgmt.msc  
 
 
 
-# AUTORUN #####
+# AUTORUN
 shell:startup  
 shell:common startup
 
@@ -20,8 +30,8 @@ shell:common startup
 `programm.exe /?` help  
 `programm.exe --help` help  
 `cmd /C “ping 8.8.8.8”` execute a command  
-`winword /safe`  
 `winword.exe /a`  
+`winword /safe`  safe mode
 `excel.exe /safe`  
 `powerpoint.exe /safe`  
 `firefox -P`  
