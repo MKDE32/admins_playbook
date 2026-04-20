@@ -1,0 +1,22 @@
+masterbootrecord manuell reparieren
+Eingabeaufforderung zb per cd starten (win re)
+
+
+
+erstellen eines neuen mbr
+bootrec /fixmbr
+
+
+
+erstellt den bootmanager neu
+bootrec /fixboot
+
+
+
+sucht nach os das nicht im bootmgr eingetragen ist
+bootrec /scanos
+
+
+
+wieder eintragen mit
+bootrec /rebuildbcd
