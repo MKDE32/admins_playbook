@@ -2,19 +2,26 @@ diskpart                              enter diskpart
 
 list disk                             list disks
 list partition                        list partitions
+list volume
 
 select disk 0                         select disk
 select partition 1                    select partition
+select volume 1
 
 delete partition                      delete partition
 
 create partition primary              create partition
 
+remove
 clean                                 deletes mbr/gpt
-clean all                             deletes mbr/gpt
+clean all                             overwrites complete disk
 format fs=ntfs label=whatuwant quick   quickformating
 
 active                                 mark partition as active
+
+exit
+
+
 
 
 
