@@ -1,43 +1,57 @@
-icacls C:\Pictures\
+# EXAMPLES
+```
+icacls <directory>
+```
+View the permissions set on a directory
 
-
-
+```
 icacls "C:\Pictures\" /grant Everyone:(OI)(CI)(R)
+````
+Grant a user full permissions to a directory
+
+```
+icacls c:\users /remove joe
+```
+Remove a users permissions on a directory
 
 
-
+# FLAGS
 N - Kein Zugriff
-                F - Vollzugriff
-                M - Änderungszugriff
-                RX - Lese- und Ausführungszugriff
-                R - Schreibgeschützter Zugriff
-                W - Lesegeschützter Zugriff
-                D - Löschzugriff
-        Eine in Klammern stehende kommagetrennte Liste von bestimmten Rechten:
-                DE - Löschen
-                RC - Lesesteuerung
-                WDAC - DAC schreiben
-                WO - Besitzer schreiben
-                S - Synchronisieren
-                AS - Systemsicherheitszugriff
-                MA - Maximal zulässig
-                GR - Allgemeiner Lesezugriff
-                GW - Allgemeiner Schreibzugriff
-                GE - Allgemeiner Ausführungszugriff
-                GA - Allgemeiner Zugriff (alle)
-                RD - Daten lesen/Verzeichnis auflisten
-                WD - Daten schreiben/Datei hinzufügen
-                AD - Daten anfügen/Unterverzeichnis hinzufügen
-                REA - Erweiterte Attribute lesen
-                WEA - Erweiterte Attribute schreiben
-                X - Ausführen/Durchsuchen
-                DC - Untergeordnetes Element löschen
-                RA - Attribute lesen
-                WA - Attribute schreiben
-        Die Vererbungsrechte können beiden Formaten vorangestellt werden
-        und werden nur auf Verzeichnisse angewendet:
-                (OI) - Objektvererbung
-                (CI) - Containervererbung
-                (IO) - Nur vererben
-                (NP) - Vererbung nicht verteilen
-                (I) - Vom übergeordneten Container vererbte Berechtigung
+F - Vollzugriff
+M - Änderungszugriff             
+RX - Lese- und Ausführungszugriff
+R - Schreibgeschützter Zugriff
+W - Lesegeschützter Zugriff
+D - Löschzugriff
+
+Eine in Klammern stehende kommagetrennte Liste von bestimmten Rechten:
+
+DE - Löschen
+RC - Lesesteuerung
+WDAC - DAC schreiben
+WO - Besitzer schreiben
+S - Synchronisieren
+AS - Systemsicherheitszugriff
+MA - Maximal zulässig
+GR - Allgemeiner Lesezugriff
+GW - Allgemeiner Schreibzugriff
+GE - Allgemeiner Ausführungszugriff
+GA - Allgemeiner Zugriff (alle)
+RD - Daten lesen/Verzeichnis auflisten
+WD - Daten schreiben/Datei hinzufügen
+AD - Daten anfügen/Unterverzeichnis hinzufügen
+REA - Erweiterte Attribute lesen
+WEA - Erweiterte Attribute schreiben
+X - Ausführen/Durchsuchen
+DC - Untergeordnetes Element löschen
+RA - Attribute lesen
+WA - Attribute schreiben
+                
+Die Vererbungsrechte können beiden Formaten vorangestellt werden
+und werden nur auf Verzeichnisse angewendet:
+        
+(OI) - Objektvererbung
+(CI) - Containervererbung
+(IO) - Nur vererben
+(NP) - Vererbung nicht verteilen
+(I) - Vom übergeordneten Container vererbte Berechtigung
