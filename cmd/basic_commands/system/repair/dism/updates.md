@@ -18,3 +18,13 @@ dism /image:c:\ /remove-package /packagename:<PACKAGENAME> /scratchdir:c:\window
 ```
 dism /image:c:\ /cleanup-image /revertpendingactions
 ```
+
+
+
+
+
+
+
+
+
+
