@@ -1,0 +1,5 @@
+in Windows 10 die installierten Updates anzeigen lassen
+wmic qfe
+
+Get information about the operating system
+wmic os list brief
