@@ -1,0 +1,64 @@
+GLOBAL
+
+kopieren
+strg c
+
+einfügen
+strg v
+
+einfügen als plaintext
+strg shift v
+
+close programm
+alt f4
+
+
+
+WINDOWS
+
+Taskmanager
+strg shift esc
+
+Windows sperren
+windows l
+
+teilt Programm auf dem Bildschirm entsprechend der Pfeiltasten 
+windows arrow
+
+öffnet  den Windows Explorer
+windows e
+
+windows settings menu
+windows i
+
+ausführen/ run dialog
+windows r
+
+
+
+BROWSER
+
+refresh
+f5
+
+refresh and re-downloads any cached files
+strg f5
+
+
+
+PROGRAMME
+
+save file
+strg s
+
+find
+strg f
+
+undo
+strg z
+
+select all
+strg a
+
+emoji
+windows .
