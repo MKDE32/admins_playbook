@@ -1,7 +1,15 @@
+# SHOW DRIVERS
+dism /image:C:\ /get-drivers
+
+# LOAD REGISTRY
 reg load HKLM\OFFLINE C:\Windows\System32\Config\SYSTEM
 
+# OPEN REGISTRY
 regedit
 
+
+
+# DRIVER DISABLE
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\<Treibername>
 
 
