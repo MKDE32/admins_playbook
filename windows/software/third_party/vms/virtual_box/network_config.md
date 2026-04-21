@@ -9,9 +9,8 @@
 | Internal Network| No             | No          | No         | Yes      | Fully isolated VM network (lab/testing) |
 | Generic Driver  | Depends        | Depends     | Depends    | Depends  | Advanced/custom setups |
 
----
 
-## Notes
+# Notes
 
 - NAT:
   - Easiest setup
@@ -37,11 +36,3 @@
   - Rarely used
   - For special drivers (UDP Tunnel, VDE, etc.)
 
----
-
-## Quick Recommendations
-
-- Basic usage: NAT
-- Lab with multiple VMs: NAT Network or Host-Only
-- Real network testing: Bridged
-- Isolated pentest lab: Internal Network
