@@ -30,8 +30,4 @@ shasum -a 256 file.txt > file.txt.sha256
 shasum -c file.txt.sha256
 ```
 
-## CALCULATE HASH
-```
-sha256sum Windows.iso
-```
 
