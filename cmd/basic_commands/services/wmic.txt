@@ -1,0 +1,6 @@
+kill running processes
+wmic process <PID> delete
+wmic process where name=filename.exe delete
+
+zeigt executeablepath
+wmic process where processid=XXXX get ExecuteablePath
