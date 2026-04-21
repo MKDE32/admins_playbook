@@ -1,8 +1,9 @@
 # CMD `type` Cheatsheet (Admin & IT-Security)
 
 ## 🔹 Basics
-
+```
 type file.txt
+```
 → Inhalt anzeigen
 
 type *.log
