@@ -1,0 +1,4 @@
+find "password" "C:\Users\student\not-passwords.txt"
+/N    line numbers
+/I    ignore case sensitivity
+/V    not
