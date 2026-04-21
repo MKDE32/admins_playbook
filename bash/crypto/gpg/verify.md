@@ -1,4 +1,4 @@
-# IMPORT KEY OFFLINE / ONLINE
+# IMPORT PUBLIC KEY OFFLINE / ONLINE
 ```
 gpg --import key.asc
 gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys <KEYID>
