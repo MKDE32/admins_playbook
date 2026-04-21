@@ -1,0 +1,9 @@
+Windows Install
+   ↓
+Audit Mode (Ctrl+Shift+F3)
+   ↓
+Configure System
+   ↓
+Sysprep /generalize /oobe /shutdown
+   ↓
+Image Capture
