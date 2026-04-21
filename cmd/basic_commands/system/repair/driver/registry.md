@@ -16,7 +16,7 @@ regedit
 ```
 dism /image:C:\ /get-drivers
 ```
-or
+or  
 `HKLM\OFFLINE\ControlSet001\Services`
 
 
