@@ -1,4 +1,0 @@
-ping ip
-tracert ip
-nslookup
-netstat
