@@ -1,8 +1,5 @@
-# GIT CLI CHEATSHEET (ADMIN / DEV / SECURITY)
-# Plain text - no unicode
 
---------------------------------------------
-SETUP
+# SETUP
 --------------------------------------------
 
 git --version
@@ -18,8 +15,7 @@ git config --list
 -> Show configuration
 
 
---------------------------------------------
-START / CLONE
+# START / CLONE
 --------------------------------------------
 
 git init
@@ -32,8 +28,8 @@ git clone <url> <folder>
 -> Clone into specific folder
 
 
---------------------------------------------
-STATUS / INSPECT
+
+# STATUS / INSPECT
 --------------------------------------------
 
 git status
@@ -52,8 +48,8 @@ git diff --staged
 -> Show staged changes
 
 
---------------------------------------------
-ADD / COMMIT
+
+# ADD / COMMIT
 --------------------------------------------
 
 git add <file>
@@ -69,8 +65,8 @@ git commit -am "message"
 -> Add + commit tracked files
 
 
---------------------------------------------
-BRANCHING
+
+# BRANCHING
 --------------------------------------------
 
 git branch
@@ -93,7 +89,7 @@ git switch -c <branch>
 
 
 --------------------------------------------
-MERGE
+# MERGE
 --------------------------------------------
 
 git merge <branch>
@@ -104,7 +100,7 @@ git rebase <branch>
 
 
 --------------------------------------------
-REMOTE (GITHUB / SERVERS)
+# REMOTE (GITHUB / SERVERS)
 --------------------------------------------
 
 git remote -v
@@ -127,7 +123,7 @@ git fetch
 
 
 --------------------------------------------
-UNDO / RECOVERY
+# UNDO / RECOVERY
 --------------------------------------------
 
 git restore <file>
@@ -147,7 +143,7 @@ git revert <commit>
 
 
 --------------------------------------------
-SECURITY / ADMIN NOTES
+# SECURITY / ADMIN NOTES
 --------------------------------------------
 
 - git reset --hard destroys local changes
