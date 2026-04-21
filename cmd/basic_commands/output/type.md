@@ -1,4 +1,4 @@
-# CMD `type` Cheatsheet (Admin & IT-Security)
+# TYPE
 
 ## 🔹 Basics
 ```
