@@ -1,1 +1,1 @@
-tracert
+tracert google.de
