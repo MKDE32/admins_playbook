@@ -1,0 +1,4 @@
+Typ des aktuell verwendeten Windows Key anzeigen
+
+Art des Windows Keys anzeigen (volume, oem, retail)
+slmgr -dli
