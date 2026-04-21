@@ -1,1 +1,3 @@
+```
 Get-AuthenticodeSignature setup.exe
+```
