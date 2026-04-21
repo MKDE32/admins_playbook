@@ -1,0 +1,2 @@
+where calc.exe
+where.exe /R C:\Users\student\ bio.txt                ### DONT FORGET THE SPACE!!!! ###
