@@ -15,7 +15,10 @@ oobe\msoobe /a
 BYPASS / SETUP SHORTCUTS
 --------------------------------------------
 
+`SHIFT + F10` to open the cmd, then:
+```
 oobe\bypassnro
+```
 -> Bypass network requirement (Windows 11 setup)
 -> Adds "I don't have internet" option
 
