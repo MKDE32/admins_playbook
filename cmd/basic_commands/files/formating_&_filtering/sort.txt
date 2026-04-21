@@ -1,0 +1,2 @@
+sort.exe .\file-1.md /O .\sort-1.md
+sort.exe .\sort-1.md /unique
