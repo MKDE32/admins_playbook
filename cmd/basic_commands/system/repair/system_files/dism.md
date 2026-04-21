@@ -1,9 +1,14 @@
-# IDENTIFY DRIVE IF NEEDED
+# IDENTIFY DRIVE
 ```
 diskpart
 ```
 ```
 list volume
+```
+## ASSIGN DRIVE LETTER IF NEEDED
+```
+select volume 1
+assign letter=S
 exit
 ```
 
