@@ -1,4 +1,5 @@
 # IDENTIFY DRIVE
+## SHOW VOLUME
 ```
 diskpart
 ```
@@ -13,23 +14,26 @@ exit
 ```
 
 
+
+
+
 # RESTORE COMPONENT STORE
-## SCAN FOR CORRUPTION
+## REPAIR WITH WIN UPDATE
 ```
 DISM /Online /Cleanup-Image /ScanHealth
-```
-
-## ONLINE REPAIR
-```
 DISM /Online /Cleanup-image /RestoreHealth
 ```
 
-## OFFLINE REPAIR .WIM
+
+
+
+
+## REPAIR WITH INSTALLATION MEDIUM
+### OFFLINE REPAIR .WIM
 ```
 DISM /Online /Cleanup-Image /RestoreHealth /Source:wim:D:\sources\install.wim:1 /LimitAccess
 ```
-
-## OFFLINE REPAIR .ESD
+### OFFLINE REPAIR .ESD
 ```
 DISM /Online /Cleanup-Image /RestoreHealth /Source:esd:D:\sources\install.esd:1 /LimitAccess
 ```
@@ -43,12 +47,12 @@ DISM /Online /Cleanup-Image /RestoreHealth /Source:esd:D:\sources\install.esd:1 
 
 
 
+## REPAIR COMPLETELY OFFLINE
+```
+DISM /Image:C:\ /Cleanup-Image /ScanHealth
+DISM /Image:C:\ /Cleanup-Image /RestoreHealth
+```
 
-# EXAMPLES
-```
-DISM /Online /Cleanup-image /ScanHealth
-```
-scans for problems in win componentstore
 
 
 
