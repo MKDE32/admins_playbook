@@ -1,0 +1,3 @@
+ssh Verbindung aufbauen
+ssh Benutzer@IP Adresse
+funktioniert in PS und im Terminal
