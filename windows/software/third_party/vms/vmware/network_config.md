@@ -8,9 +8,8 @@
 | Custom (VMnetX) | Depends        | Depends     | Depends    | Yes      | Advanced setups with manual config |
 | LAN Segment     | No             | No          | No         | Yes      | Fully isolated VM network (like internal net) |
 
----
 
-## Notes
+# Notes
 
 - NAT (VMnet8):
   - VMs can access internet via host
@@ -35,12 +34,4 @@
   - No host, no internet
   - Ideal for malware labs / pentesting
 
----
 
-## Quick Recommendations
-
-- Basic usage: NAT (VMnet8)
-- Multi-VM lab with internet: NAT
-- Real network testing: Bridged
-- Controlled lab with host access: Host-Only
-- Fully isolated lab: LAN Segment
