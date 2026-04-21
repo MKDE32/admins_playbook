@@ -1,3 +1,13 @@
+# IDENTIFY DRIVE IF NEEDED
+```
+diskpart
+```
+```
+list volume
+exit
+```
+
+
 # RESTORE COMPONENT STORE
 ## SCAN FOR CORRUPTION
 ```
