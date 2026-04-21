@@ -1,3 +1,16 @@
+# LIST VOLUMES
+```
+diskpart
+```
+```
+list volume
+```
+
+# SWITCH TO WIN PARTITION
+```
+cd c:\
+```
+
 # SHOW UPDATES
 ```
 dism /image:c:\ /get-packages
@@ -18,6 +31,8 @@ dism /image:c:\ /remove-package /packagename:<PACKAGENAME> /scratchdir:c:\window
 ```
 dism /image:c:\ /cleanup-image /revertpendingactions
 ```
+
+
 
 
 
