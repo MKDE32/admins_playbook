@@ -29,12 +29,9 @@ DISM /Online /Cleanup-image /RestoreHealth
 
 
 ## REPAIR WITH INSTALLATION MEDIUM
-### REPAIR USING .WIM
+### REPAIR USING .WIM OR .ESD
 ```
 DISM /Online /Cleanup-Image /RestoreHealth /Source:wim:D:\sources\install.wim:1 /LimitAccess
-```
-### REPAIR USING .ESD
-```
 DISM /Online /Cleanup-Image /RestoreHealth /Source:esd:D:\sources\install.esd:1 /LimitAccess
 ```
 
