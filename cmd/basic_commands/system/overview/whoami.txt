@@ -1,0 +1,4 @@
+whoami
+whoami /groups
+whoami /priv
+whoami -all
