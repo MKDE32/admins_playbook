@@ -50,7 +50,7 @@ DISM /Image:C:\ /Cleanup-Image /RestoreHealth
 
 
 
-# AFTER ONE DISM REPAIR METHOD IS SUCCESSFULLY, RUN SFC
+# REPAIR SYSTEM FILES
 ## SFC
 ```
 sfc /scannow
