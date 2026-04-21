@@ -1,8 +1,3 @@
-# WINDOWS ENVIRONMENT VARIABLES CHEATSHEET (ADMIN)
-
-# Purpose: System administration, troubleshooting, deployment, scripting
-
---------------------------------------------
 A
 --------------------------------------------
 ALLUSERSPROFILE
