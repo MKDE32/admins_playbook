@@ -1,5 +1,7 @@
 # API TEST
-`firefox > developertools > networktab > XDR` > search for slow loading apis
+`firefox > developertools > networktab > XDR`  
+search for slow loading apis
+
 ```
 curl -w "%{time_total}\n" -o /dev/null -s https://subdomain.website.com/api/v3/exams/current
 ```
