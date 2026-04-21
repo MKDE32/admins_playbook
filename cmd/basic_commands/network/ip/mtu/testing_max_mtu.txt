@@ -1,0 +1,11 @@
+Die MTU (Maximum Transmission Unit) ist die maximale Größe der Nutzdaten (Payload) eines Netzwerkpakets auf Layer 3 (IP), die in ein Ethernet-Frame passt.
+
+maximale mtu ermitteln
+ping google.com -f -l 1472
+-wenn 100% loss dann mtu(genauer die nutzdaten) zu groß
+-so lange ausprobieren bis 100% received
+-dann noch 
+        +    8 bytes ICMP-Header (Transportschicht)
+        +   20 bytes IPv4-Header (der Vermittlungsschicht)
+hinzurechnen und per "netsh int ipv4..." die mtu ändern. (in diesem Fall auf 1500, 1500 ist standart)
+denk dran den router auch entsprechend einzustellen!!
