@@ -1,0 +1,2 @@
+HOST Taste + F
+(HOST Taste ist standartmäßig STRGRECHTS)
