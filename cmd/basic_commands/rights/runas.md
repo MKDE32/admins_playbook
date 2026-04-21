@@ -11,7 +11,7 @@ runas /user:Administrator "notepad.exe"
 ```
 set __compat_layer=runasinvoker
 ```
-after that, start the app
+after that, start the app  
 `runasinvoker`  
 `runasadmin`
 
