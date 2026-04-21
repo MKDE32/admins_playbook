@@ -1,0 +1,5 @@
+usernamen und sid auflisten
+wmic useraccount get sid,name
+
+gruppe+ sid auflisten
+wmic group get sid,name
