@@ -1,0 +1,2 @@
+dcdiag
+repadmin /replsummary
