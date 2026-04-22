@@ -2,7 +2,7 @@
 
 ## 📌 Accessing Environment Variables
 
-```powershell
+
 # Get a specific variable
 $env:PATH
 
