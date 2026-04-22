@@ -1,9 +1,5 @@
-########## FSMO ROLES CHEATSHEET (ACTIVE DIRECTORY) ##########
+# FLEXIBLE SINGLE MASTER OPERATIONS ROLES
 
-# What are FSMO roles?
-Flexible Single Master Operations roles in Active Directory that handle special tasks to avoid conflicts.
-
-#############################################################
 
 | Role                         | Scope        | Purpose (short)                         | Key Impact |
 |------------------------------|--------------|------------------------------------------|------------|
@@ -13,7 +9,7 @@ Flexible Single Master Operations roles in Active Directory that handle special 
 | PDC Emulator                | Domain       | Time sync, password changes, legacy ops | Most critical for logons |
 | Infrastructure Master       | Domain       | Updates cross-domain references         | Object consistency |
 
-#############################################################
+
 
 # FSMO role locations
 
@@ -22,16 +18,14 @@ Flexible Single Master Operations roles in Active Directory that handle special 
 | Forest   | 2      | Forest-wide |
 | Domain   | 3 per domain | Domain-wide |
 
-#############################################################
+
 
 # Check FSMO roles (PowerShell alternative)
+```
 Get-ADForest | Select-Object SchemaMaster, DomainNamingMaster
 Get-ADDomain | Select-Object PDCEmulator, RIDMaster, InfrastructureMaster
+```
 
-#############################################################
-
-# Classic command (legacy)
-netdom query fsmo
 
 
 # Important notes
