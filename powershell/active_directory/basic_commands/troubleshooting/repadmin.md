@@ -1,5 +1,3 @@
-########## REPADMIN CHEATSHEET (AD REPLICATION) ##########
-
 # Basic overview
 repadmin /replsummary           # replication health summary
 repadmin /showrepl              # detailed inbound replication per DC
@@ -29,8 +27,6 @@ repadmin /removelingeringobjects DCNAME SOURCEDC "NC"
 # Output to file
 repadmin /replsummary > repl_report.txt
 
-###########################################################
-
 # Key commands explained
 
 | Command            | Purpose                              |
@@ -43,19 +39,9 @@ repadmin /replsummary > repl_report.txt
 | /showconn          | Connection topology                  |
 | /showobjmeta       | Object change history                |
 
-###########################################################
 
-# Common issues & fixes
 
-| Issue                    | Possible Cause           | Action                          |
-|--------------------------|--------------------------|----------------------------------|
-| High fails in summary    | Network / DNS            | Check connectivity & DNS        |
-| Last success long ago    | Replication stuck        | Run /syncall, check errors      |
-| Access denied            | Permissions              | Use Domain Admin                |
-| Lingering objects        | Stale DC                 | Remove with /removelingeringobjects |
-| Large queue              | Slow DC / bandwidth      | Investigate load/network        |
 
-###########################################################
 
 # Useful flags
 
@@ -66,11 +52,6 @@ repadmin /replsummary > repl_report.txt
 | /d   | Identify servers by DN                   |
 | /q   | Quiet (errors only, limited support)     |
 
-###########################################################
 
-# Related tools
-dcdiag                      # DC health check
-nltest /dsgetdc:domain      # locate DC
-Get-ADReplicationPartnerMetadata  # PowerShell alternative
 
-###########################################################
+
