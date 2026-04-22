@@ -1,5 +1,3 @@
-
-
 # FLAGS
 ```
 dcdiag /v                 # verbose output
@@ -7,7 +5,13 @@ dcdiag /q                 # only errors
 dcdiag /e                 # test all DCs in forest
 dcdiag /a                 # test all DCs in site
 dcdiag /s:DCNAME          # test specific DC
+dcdiag /v > dcdiag_report.txt    # Output to file
+dcdiag /u:DOMAIN\User /p:Password    # user and password if needed
+dcdiag /test:DNS /test:Replications    # Run multiple tests
 ```
+
+
+
 
 # TESTS
 ```
@@ -21,16 +25,9 @@ dcdiag /test:FSMOCheck
 dcdiag /test:Connectivity
 ```
 
-# Run multiple tests
-dcdiag /test:DNS /test:Replications
 
-# Output to file
-dcdiag /v > dcdiag_report.txt
 
-# Credentials (if needed)
-dcdiag /u:DOMAIN\User /p:Password
 
-###############################################################
 
 # INFO
 
