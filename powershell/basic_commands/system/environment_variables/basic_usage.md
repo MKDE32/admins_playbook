@@ -1,38 +1,34 @@
-# PowerShell Environment Variables Cheatsheet
+# OVERVIEW
+Get a specific variable  
+`$env:PATH`
 
-## 📌 Accessing Environment Variables
+List all environment variables  
+`Get-ChildItem Env:`
 
-
-# Get a specific variable
-$env:PATH
-
-# List all environment variables
-Get-ChildItem Env:
-
-# Get variable with .NET
-[System.Environment]::GetEnvironmentVariable("PATH")
+Get variable with .NET  
+`[System.Environment]::GetEnvironmentVariable("PATH")`
 
 
 
+# SET
+## CURRENT SESSION
+Set a variable  
+`$env:MY_VAR = "HelloWorld"`
 
-Setting Environment Variables (Temporary - Current Session)
-# Set a variable
-$env:MY_VAR = "HelloWorld"
-
-# Append to PATH
-$env:PATH += ";C:\MyFolder"
-
-
+Append to PATH  
+`$env:PATH += ";C:\MyFolder"`
 
 
-persistent cu
-[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "User")
 
-pers machine
-[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "Machine")
+## PERSISTENT
+current user
+`[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "User")`
 
-pers for process same as $env
-[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "Process")
+machine
+`[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "Machine")`
+
+process, same as $env
+`[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "Process")`
 
 
 
