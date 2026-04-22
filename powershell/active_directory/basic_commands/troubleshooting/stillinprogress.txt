@@ -1,2 +1,0 @@
-repadmin /replsummary
-nltest /dsgetdc:domain    # find domain controller
