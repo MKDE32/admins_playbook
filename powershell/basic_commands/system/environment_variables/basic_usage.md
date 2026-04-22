@@ -10,6 +10,8 @@ Get variable with .NET
 
 
 
+
+
 # SET
 ## CURRENT SESSION
 Set a variable  
@@ -18,39 +20,35 @@ Set a variable
 Append to PATH  
 `$env:PATH += ";C:\MyFolder"`
 
-
-
 ## PERSISTENT
-current user
+current user  
 `[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "User")`
 
-machine
+machine  
 `[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "Machine")`
 
-process, same as $env
+process, same as $env  
 `[System.Environment]::SetEnvironmentVariable("MY_VAR", "HelloWorld", "Process")`
 
 
 
 
 
+# REMOVE
+user variable
+`[System.Environment]::SetEnvironmentVariable("MY_VAR", $null, "User")`
 
-
-Removing Environment Variables
-# Remove variable (User)
-[System.Environment]::SetEnvironmentVariable("MY_VAR", $null, "User")
-
-# Remove variable (Machine)
-[System.Environment]::SetEnvironmentVariable("MY_VAR", $null, "Machine")
-
+machine variable
+`[System.Environment]::SetEnvironmentVariable("MY_VAR", $null, "Machine")`
 
 
 
-Refresh Environment Variables in Session
-# Reload PATH from registry (useful after persistent changes)
+# REFRESH
+in Session, Reload PATH from registry (useful after persistent changes)
+```
 $env:PATH = [System.Environment]::GetEnvironmentVariable("PATH","Machine") + ";" +
             [System.Environment]::GetEnvironmentVariable("PATH","User")
-
+```
 
 
 
