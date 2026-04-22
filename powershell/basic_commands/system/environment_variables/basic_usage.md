@@ -35,10 +35,10 @@ process, same as $env
 
 
 # REMOVE
-user variable
+user variable  
 `[System.Environment]::SetEnvironmentVariable("MY_VAR", $null, "User")`
 
-machine variable
+machine variable  
 `[System.Environment]::SetEnvironmentVariable("MY_VAR", $null, "Machine")`
 
 
