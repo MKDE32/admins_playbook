@@ -1,2 +1,0 @@
-get-alias ls
-set-alias
