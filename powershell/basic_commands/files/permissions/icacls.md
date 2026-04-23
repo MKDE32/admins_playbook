@@ -13,7 +13,7 @@ icacls .\ /grant Everyone:(OI)(CI)F /T
 icacls C:\Ordner /grant:r Benutzer:(R,W) /T
 ```
 ## FLAGS
-`/grant:r` substitute instead of add
+`/grant:r` substitute instead of add  
 `/T` recursive
 
 
