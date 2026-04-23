@@ -1,5 +1,0 @@
-cat bla.txt
-  
--head 10
--tail 10
-
