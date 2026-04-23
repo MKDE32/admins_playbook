@@ -1,5 +1,13 @@
-Exchange Admin Center
+# LOGIN
+## ADMIN CENTER (admin login)
+`https://localhost/ecp`
 
-https://localhost/ecp
+## WEB OUTLOOK APP (outlook web login)
+`https://localhost/owa`
 
-https://localhost/owa/auth
+
+
+
+
+# LOGIN HANDSHAK (only needed for troubleshooting)
+`https://localhost/owa/auth`
