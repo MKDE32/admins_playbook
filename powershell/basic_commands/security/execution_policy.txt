@@ -1,6 +1,0 @@
-powershell -executionpolicy bypass -file anything.ps1
-
-
-
-
-
