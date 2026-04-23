@@ -1,8 +1,12 @@
+```
+test-netconnection
+```
+```
 tnc 8.8.8.8 -ping
 tnc google.de -port 80
 tnc google.de -traceroute
 tnc google.de -InformationLevel Detailed
-
+```
 
 
 
