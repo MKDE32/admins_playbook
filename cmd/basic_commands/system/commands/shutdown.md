@@ -4,14 +4,14 @@ shutdown /r
 ```
 
 # FLAGS
-/s          shutdown  
-/t 1800     countdown  
-/r          restart  
-/f          force  
--l          abmelden  
-/a          cancel  
-/h          Ruhezustand
-
+`/s`          shutdown  
+`/t 1800`     countdown  
+`/r`          restart  
+`/f`          force  
+`-l`          abmelden  
+`/a`          cancel  
+`/h`          Ruhezustand
+`/w`          next boot in uefi setup
 
 
 
