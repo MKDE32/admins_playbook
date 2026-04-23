@@ -1,9 +1,0 @@
-mv src dst
-mv *.txt dst
-
-
-
-
-
-
-
