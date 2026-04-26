@@ -1,9 +1,4 @@
-Kali Repositorys
 
-/etc/apt/sources.list
-
-deb   http://http.kali.org/kali   kali-rolling   main non-free contrib
-<Archive>   <Mirror>                <Branch>         <Component>
 
 
 
@@ -18,6 +13,4 @@ Multiverse - Software restricted by copyright or legal issues.
 
 
 
-Parrot Repositorys
 
-/etc/apt/sources.list.d/parrot.list	
