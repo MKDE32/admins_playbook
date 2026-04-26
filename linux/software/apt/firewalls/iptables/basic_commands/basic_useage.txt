@@ -1,3 +1,15 @@
+# OVERVIEW
+Version anzeigen
+iptables -V
+
+Listet aktuelle Regeln auf
+iptables -L
+
+listet aktuelle Regeln auf erweitert
+iptables -vnL
+
+
+
 # IPv6
 sudo ip6tables -t filter -A INPUT -j DROP
 
