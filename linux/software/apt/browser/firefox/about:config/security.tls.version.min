@@ -1,0 +1,3 @@
+minimum tls version die genutzt werden darf
+security.tls.version.min
+3 = TLS v 1.2
