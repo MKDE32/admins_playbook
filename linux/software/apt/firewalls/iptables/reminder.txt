@@ -1,0 +1,60 @@
+# TABLES
+-mangle 	Paketmanipulationen		alle Ketten
+-nat 			 										PREROUTING, OUTPUT und POSTROUTING
+-filter												FORWARD, INPUT und OUTPUT
+-raw
+
+
+
+
+# CHAINS
+• PREROUTING: alle Paketekommen hier durch bevor eine Routing-Entscheidung getroffen wird
+  • FORWARD: für allePakete, die von der einen zueiner anderen Netzwerkschnittstelleweitergeleitet werden - also keine Paketedie an einen lokalen Dienst gerichtet sind 
+  • INPUT: für Paketedie über eine Schnittstelle hereinkommen     und einen Dienst auf dem Rechner ansprechen 
+  • OUTPUT: für dieüber eine Schnittstelle herausgehenden     Pakete, die von einem lokalen Dienst kommen 
+  • POSTROUTING: alle Paketekommen am Ende derVerarbeitung hier durch
+
+
+
+
+# TARGET / JUMP
+ACCEPT
+paket accept
+DROP
+nmap zeigt filtered an
+REJECT
+???nmap zeigt closed an???
+
+LOG
+SNAT
+DNAT
+MASQUERADE
+LIMIT
+RETURN
+TEE
+TOS
+TTL
+
+
+
+# STATEFUL CONNECTION TRACKING
+NEW
+first packet of a connection
+ESTABLISHED
+packets part of existing connection
+RELATED
+packets requesting a new connection && already a part of an existing connection
+INVALID
+packets not part of an existing connection
+UNTRACKED
+packet marked within the raw table with NOTTRACK target
+
+
+
+
+
+
+
+
+
+
