@@ -61,21 +61,7 @@
 - Connection tracking is handled by **conntrack**
 - Rule order matters (top → down)
 
----
 
-## ⚡ Quick Examples
-
-### Allow SSH
-iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-
-### Drop everything else
-iptables -A INPUT -j DROP
-
-### Allow established connections
-iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
-
-### Enable NAT (internet sharing)
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 
 
