@@ -1,0 +1,23 @@
+Kali Repositorys
+
+/etc/apt/sources.list
+
+deb   http://http.kali.org/kali   kali-rolling   main non-free contrib
+<Archive>   <Mirror>                <Branch>         <Component>
+
+
+
+Ubuntu Repositorys
+
+/etc/apt/sources.list		
+							
+Main - Canonical-supported free and open-source software. 
+Universe - Community-maintained free and open-source software. enthält zb chntpw..
+Restricted - Proprietary drivers for devices. 
+Multiverse - Software restricted by copyright or legal issues. 
+
+
+
+Parrot Repositorys
+
+/etc/apt/sources.list.d/parrot.list	
