@@ -1,7 +1,7 @@
 # OVERVIEW
 ```
-powercfg /energy
-powercfg /batteryreport
+powercfg -energy
+powercfg -batteryreport
 powercfg -lastwake
 ```
 - generiert einen Energiereport als xml file
