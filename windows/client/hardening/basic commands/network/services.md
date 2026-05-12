@@ -6,10 +6,6 @@ netsh interface isatap set state disabled
 netsh advfirewall firewall add rule name="Block IPv6 Inbound" dir=in action=block protocol=ANY remoteip=::/0
 netsh advfirewall firewall add rule name="Block IPv6 Outbound" dir=out action=block protocol=ANY remoteip=::/0
 ```
-- teredo
-- 6 to 4
-- ISATAP
-- firewall
 
 
 
