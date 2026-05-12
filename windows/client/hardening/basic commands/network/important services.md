@@ -4,6 +4,23 @@ netsh interface show interface
 netsh interface set interface "Ethernet" new interface=Public
 netsh interface set interface "Wi-Fi" new interface=Public
 ```
+# SMB V1
+```
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1 /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start /t REG_DWORD /d 4 /f
+```
+# LLMNR
+```
+reg query "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast
+reg add "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast /t REG_DWORD /d 0 /f
+```
+# NETBIOS OVER TCP
+```
+wmic nicconfig get TcpipNetbiosOptions
+wmic nicconfig where TcpipNetbiosOptions!=NULL call SetTcpipNetbios 2
+```
 # NETWORK PRINTING
 ```
 netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=No
@@ -43,13 +60,7 @@ netsh advfirewall firewall add rule name="Block IPv6 Outbound" dir=out action=bl
 sc stop LanmanServer
 sc config LanmanServer start= disabled
 ```
-# SMB V1
-```
-reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
-reg query "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start
-reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1 /t REG_DWORD /d 0 /f
-reg add "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start /t REG_DWORD /d 4 /f
-```
+
 # UPNP
 ```
 sc stop upnphost
@@ -73,16 +84,8 @@ reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters"
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
 ```
-# LLMNR
-```
-reg query "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast
-reg add "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast /t REG_DWORD /d 0 /f
-```
-# NETBIOS OVER TCP
-```
-wmic nicconfig get TcpipNetbiosOptions
-wmic nicconfig where TcpipNetbiosOptions!=NULL call SetTcpipNetbios 2
-```
+
+
 # WPAD
 ```
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoDetect /t REG_DWORD /d 0 /f
