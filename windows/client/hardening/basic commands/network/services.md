@@ -43,11 +43,10 @@ wmic nicconfig where TcpipNetbiosOptions!=NULL call SetTcpipNetbios 2
 ```
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoDetect /t REG_DWORD /d 0 /f
 ```
-
-
-
-
-
+# NETWORK DISCOVERY
+```
+netsh advfirewall firewall set rule group="Network Discovery" new enable=No
+```
 
 
 
