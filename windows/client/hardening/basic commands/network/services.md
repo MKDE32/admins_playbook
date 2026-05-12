@@ -18,6 +18,18 @@ reg query "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1 /t REG_DWORD /d 0 /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start /t REG_DWORD /d 4 /f
 ```
+# UPNP
+```
+sc stop upnphost
+sc config upnphost start= disabled
+netsh advfirewall firewall add rule name="Block UPnP SSDP" dir=in action=block protocol=UDP localport=1900
+```
+
+
+
+
+
+
 # NTLM
 ```
 reg query "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v LmCompatibilityLevel
