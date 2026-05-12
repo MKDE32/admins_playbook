@@ -4,9 +4,10 @@ netsh interface show interface
 netsh interface set interface "Ethernet" new interface=Public
 netsh interface set interface "Wi-Fi" new interface=Public
 ```
-
-
-
+# NETWORK PRINTING
+```
+netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=No
+```
 
 
 
