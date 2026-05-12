@@ -1,3 +1,17 @@
+# IP V6
+```
+netsh interface teredo set state disabled
+netsh interface 6to4 set state disabled
+netsh interface isatap set state disabled
+netsh advfirewall firewall add rule name="Block IPv6 Inbound" dir=in action=block protocol=ANY remoteip=::/0
+netsh advfirewall firewall add rule name="Block IPv6 Outbound" dir=out action=block protocol=ANY remoteip=::/0
+```
+- teredo
+- 6 to 4
+- ISATAP
+- firewall
+
+
 # SMB V1
 ```
 reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
