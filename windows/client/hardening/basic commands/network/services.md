@@ -6,9 +6,6 @@ netsh interface isatap set state disabled
 netsh advfirewall firewall add rule name="Block IPv6 Inbound" dir=in action=block protocol=ANY remoteip=::/0
 netsh advfirewall firewall add rule name="Block IPv6 Outbound" dir=out action=block protocol=ANY remoteip=::/0
 ```
-
-
-
 # SMB V1
 ```
 reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
@@ -37,3 +34,53 @@ reg add "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMultica
 wmic nicconfig get TcpipNetbiosOptions
 wmic nicconfig where TcpipNetbiosOptions!=NULL call SetTcpipNetbios 2
 ```
+# WPAD
+```
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoDetect /t REG_DWORD /d 0 /f
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
