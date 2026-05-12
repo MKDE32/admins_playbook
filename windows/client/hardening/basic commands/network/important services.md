@@ -25,12 +25,23 @@ wmic nicconfig where TcpipNetbiosOptions!=NULL call SetTcpipNetbios 2
 ```
 netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=No
 ```
-
-
-
-
-
-
+# UPNP
+```
+sc stop upnphost
+sc config upnphost start= disabled
+netsh advfirewall firewall add rule name="Block UPnP SSDP" dir=in action=block protocol=UDP localport=1900
+```
+# WPAD
+```
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoDetect /t REG_DWORD /d 0 /f
+```
+# TLS
+```
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server" /v Enabled /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client" /v Enabled /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server" /v Enabled /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client" /v Enabled /t REG_DWORD /d 0 /f
+```
 # DNS OVER HTTPS
 ```
 Einstellungen → Netzwerk & Internet
@@ -38,6 +49,13 @@ Adapter (Ethernet / WLAN)
 DNS-Einstellungen
 „DNS over HTTPS“ → EIN
 ```
+
+
+
+
+
+
+
 
 
 
@@ -61,12 +79,7 @@ sc stop LanmanServer
 sc config LanmanServer start= disabled
 ```
 
-# UPNP
-```
-sc stop upnphost
-sc config upnphost start= disabled
-netsh advfirewall firewall add rule name="Block UPnP SSDP" dir=in action=block protocol=UDP localport=1900
-```
+
 
 
 
@@ -86,10 +99,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v
 ```
 
 
-# WPAD
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoDetect /t REG_DWORD /d 0 /f
-```
+
 # NETWORK DISCOVERY
 ```
 netsh advfirewall firewall set rule group="Network Discovery" new enable=No
@@ -109,13 +119,7 @@ netsh advfirewall firewall set rule group="Network Discovery" new enable=No
 
 
 
-# TLS
-```
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server" /v Enabled /t REG_DWORD /d 0 /f
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client" /v Enabled /t REG_DWORD /d 0 /f
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server" /v Enabled /t REG_DWORD /d 0 /f
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client" /v Enabled /t REG_DWORD /d 0 /f
-```
+
 # WEBDAV
 ```
 sc stop WebClient
