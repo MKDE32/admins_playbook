@@ -1,3 +1,5 @@
+
+```
 Standarduser
 UAC max
 Defender + SmartScreen
@@ -9,3 +11,4 @@ Makros aus
 Public Firewall Profil
 Print Spooler aus
 DoH
+```
