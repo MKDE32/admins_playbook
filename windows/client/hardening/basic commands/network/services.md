@@ -1,3 +1,21 @@
+# PUBLIC NETWORK
+```
+netsh interface show interface
+
+
+netsh interface set interface "Ethernet" new interface=Public
+netsh interface set interface "Wi-Fi" new interface=Public
+
+```
+
+
+
+
+
+
+
+
+
 # DNS OVER HTTPS
 ```
 Einstellungen → Netzwerk & Internet
