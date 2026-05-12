@@ -1,0 +1,28 @@
+# SMB V1
+```
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1 /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start /t REG_DWORD /d 4 /f
+```
+# NTLM
+```
+reg query "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v LmCompatibilityLevel
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v LmCompatibilityLevel /t REG_DWORD /d 5 /f
+```
+# SMB SIGNING
+```
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters"
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
+```
+# LLMNR
+```
+reg query "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast
+reg add "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast /t REG_DWORD /d 0 /f
+```
+# NETBIOS OVER TCP
+```
+wmic nicconfig get TcpipNetbiosOptions
+wmic nicconfig where TcpipNetbiosOptions!=NULL call SetTcpipNetbios 2
+```
