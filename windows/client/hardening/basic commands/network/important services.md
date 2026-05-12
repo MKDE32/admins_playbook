@@ -11,6 +11,17 @@ reg query "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1 /t REG_DWORD /d 0 /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\mrxsmb10" /v Start /t REG_DWORD /d 4 /f
 ```
+# SMB SIGNING
+```
+reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters"
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
+```
+# SMB
+```
+sc stop LanmanServer
+sc config LanmanServer start= disabled
+```
 # LLMNR
 ```
 reg query "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast
@@ -49,22 +60,6 @@ Adapter (Ethernet / WLAN)
 DNS-Einstellungen
 „DNS over HTTPS“ → EIN
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # IP V6
 ```
 netsh interface teredo set state disabled
@@ -73,59 +68,20 @@ netsh interface isatap set state disabled
 netsh advfirewall firewall add rule name="Block IPv6 Inbound" dir=in action=block protocol=ANY remoteip=::/0
 netsh advfirewall firewall add rule name="Block IPv6 Outbound" dir=out action=block protocol=ANY remoteip=::/0
 ```
-# SMB
-```
-sc stop LanmanServer
-sc config LanmanServer start= disabled
-```
-
-
-
-
-
-
-
-
 # NTLM
 ```
 reg query "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v LmCompatibilityLevel
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v LmCompatibilityLevel /t REG_DWORD /d 5 /f
 ```
-# SMB SIGNING
-```
-reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters"
-reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
-reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v RequireSecuritySignature /t REG_DWORD /d 1 /f
-```
-
-
-
-# NETWORK DISCOVERY
-```
-netsh advfirewall firewall set rule group="Network Discovery" new enable=No
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # WEBDAV
 ```
 sc stop WebClient
 sc config WebClient start= disabled
 ```
-
+# NETWORK DISCOVERY
+```
+netsh advfirewall firewall set rule group="Network Discovery" new enable=No
+```
 
 
 
