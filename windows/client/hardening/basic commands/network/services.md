@@ -12,6 +12,7 @@ netsh advfirewall firewall add rule name="Block IPv6 Outbound" dir=out action=bl
 - firewall
 
 
+
 # SMB V1
 ```
 reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
