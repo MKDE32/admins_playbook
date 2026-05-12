@@ -1,3 +1,19 @@
+# DNS OVER HTTPS
+```
+Einstellungen → Netzwerk & Internet
+Adapter (Ethernet / WLAN)
+DNS-Einstellungen
+„DNS over HTTPS“ → EIN
+```
+
+
+
+
+
+
+
+
+
 # IP V6
 ```
 netsh interface teredo set state disabled
