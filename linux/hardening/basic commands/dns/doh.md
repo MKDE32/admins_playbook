@@ -19,8 +19,10 @@ listen_addresses = ['127.0.0.1:53']
 ```
 sudo systemctl disable systemd-resolved
 sudo systemctl stop systemd-resolved
-```
+sudo rm /etc/resolv.conf
+echo "nameserver 127.0.0.1" | sudo tee /etc/resolv.conf
 
+```
 
 
 
