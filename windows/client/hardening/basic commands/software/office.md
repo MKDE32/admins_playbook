@@ -3,8 +3,8 @@
   - macros
   - ole
   - dde
-  - extern 
-- avoid
+  - extern inhalte
+- avoid old formats
   - .doc
   - .xls
   - .ppt
@@ -19,7 +19,6 @@
   - js,
   - eingebettete Dateien
   - automatische Aktionen
-  - xxe
 - if needed
   - minimalistische reader
 
