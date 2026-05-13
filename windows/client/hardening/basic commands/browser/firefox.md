@@ -16,6 +16,8 @@
 
 
 # ABOUT:CONFIG
+- disable js in pdf
+  - pdfjs.disabled > true
 - preload / speculative
   - network.dns.disablePrefetch = true
   - network.prefetch-next = false
