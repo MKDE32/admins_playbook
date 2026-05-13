@@ -20,6 +20,15 @@
 
 
 # ABOUT:CONFIG
+- preload / speculative
+  - network.dns.disablePrefetch = true
+  - network.prefetch-next = false
+  - network.http.speculative-parallel-limit = 0
+
+
+
+
+
 - fingerprinting resistance
   - privacy.resistFingerprinting = true
 - webrtc
