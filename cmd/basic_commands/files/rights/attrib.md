@@ -14,3 +14,7 @@ attrib [+R|-R] [+A|-A] [+S|-S] [+H|-H] [Datei/Ordner] [/S] [/D]
 | `-S` | Systemattribut entfernen  |
 | `+A` | Archivbit setzen          |
 
+| Option | Bedeutung                  |
+| ------ | -------------------------- |
+| `/S`   | Rekursiv: alle Unterordner |
+| `/D`   | Auch Ordner bearbeiten     |
