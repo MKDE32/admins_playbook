@@ -16,12 +16,21 @@ sudo iptables -L -v -n
 # PERSISTENCE OFFLINE
 ```
 sudo sh -c "iptables-save > /etc/iptables.rules"
-
-
-
-
-
 ```
+```
+sudo nano /etc/systemd/system/iptables-restore.service
+```
+>[Unit]  
+Description=Restore iptables rules  
+Before=network-pre.target  
+Wants=network-pre.target  
+[Service]  
+Type=oneshot  
+ExecStart=/sbin/iptables-restore < /etc/iptables.rules  
+[Install]  
+WantedBy=multi-user.target
+
+
 
 
 
