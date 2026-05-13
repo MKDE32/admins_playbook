@@ -1,5 +1,4 @@
-
-
+# DEFAULT SETS
 ```
 sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
@@ -11,19 +10,29 @@ sudo iptables -P OUTPUT ACCEPT
 sudo iptables -A INPUT -i lo -j ACCEPT
 ```
 
+# ESTABLISHED / RELATED
+```
 sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+```
 
+# ALLOW
+```
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 sudo iptables -A INPUT -p tcp --dport 3389 -j ACCEPT
+```
 
+# REVIEW
+```
 sudo iptables -L -v -n
-
+```
 
 
 # PERSISTENCE OFFLINE
 ```
 sudo sh -c "iptables-save > /etc/iptables.rules"
 ```
+
+
 ```
 sudo nano /etc/systemd/system/iptables-restore.service
 ```
@@ -36,7 +45,6 @@ Type=oneshot
 ExecStart=/sbin/iptables-restore < /etc/iptables.rules  
 [Install]  
 WantedBy=multi-user.target
-
 ```
 sudo systemctl enable iptables-restore
 ```
