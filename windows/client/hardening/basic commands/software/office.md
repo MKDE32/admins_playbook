@@ -16,11 +16,10 @@
 
 # PDF
 - deactivate
-  - js, eingebettete Dateien, 
-automatische Aktionen, xxe
-
-
-
+  - js,
+  - eingebettete Dateien
+  - automatische Aktionen
+  - xxe
 - if needed
   - minimalistische reader
 
