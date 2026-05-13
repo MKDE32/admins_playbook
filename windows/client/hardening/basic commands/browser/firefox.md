@@ -7,7 +7,6 @@
   - settings > privacy & security > strict
 - autoplay
   - settings > privacy & security > permissions > block
-
 - tracking protection
   - settings → privacy & security > strict
 
