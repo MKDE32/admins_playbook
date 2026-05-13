@@ -5,6 +5,9 @@
   - settings → privacy & security → HTTPS-Only Mode
 - sicherheit max
   - settings > privacy & security > strict
+- autoplay
+  - settings > privacy & security > permissions > block
+
 - tracking protection
   - settings → privacy & security > strict
 
