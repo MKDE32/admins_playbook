@@ -1,9 +1,11 @@
 # PROPERTIES
 - sicherheit max
 - dns over https
+  - Settings → Privacy & Security → DNS over HTTPS
 - https only
+  - Settings → Privacy & Security → HTTPS-Only Mode
 - tracking protection
-
+  - Settings → Privacy & Security
 
 
 
