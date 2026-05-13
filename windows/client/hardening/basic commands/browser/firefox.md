@@ -1,6 +1,6 @@
 # PROPERTIES
-- dns over https
-  - settings → privacy & security → DNS over HTTPS
+- doh
+  - settings → privacy & security → DNS over HTTPS > max protection
 - https only
   - settings → privacy & security → HTTPS-Only Mode
 - sicherheit max
