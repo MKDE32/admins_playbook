@@ -36,11 +36,10 @@
 
 # ADD ONS
 - ublock
-  - wenn kein noscript dann denke an `3rd-party scripts` deactivate
+  - `3rd-party scripts`
 - malwarebytes
-- noscript
 - firefox multi-account container
-
+- noscript
 
 
 
