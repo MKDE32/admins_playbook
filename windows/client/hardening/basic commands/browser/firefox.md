@@ -20,6 +20,8 @@
   - network.dns.disablePrefetch = true
   - network.prefetch-next = false
   - network.http.speculative-parallel-limit = 0
+- dns leak
+  - network.trr.mode > 3
 - fingerprinting resistance
   - privacy.resistFingerprinting = true
 - webrtc
