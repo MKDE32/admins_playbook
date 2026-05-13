@@ -1,8 +1,15 @@
+
+
+```
 sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
 sudo iptables -P OUTPUT ACCEPT
+```
 
+# LOOPBACK ACCEPT
+```
 sudo iptables -A INPUT -i lo -j ACCEPT
+```
 
 sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 
@@ -30,8 +37,9 @@ ExecStart=/sbin/iptables-restore < /etc/iptables.rules
 [Install]  
 WantedBy=multi-user.target
 
-
-
+```
+sudo systemctl enable iptables-restore
+```
 
 
 # PERSISTENCE ONLINE
