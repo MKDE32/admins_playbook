@@ -1,8 +1,13 @@
 ```
 sudo apt install dnscrypt-proxy
+sudo systemctl enable dnscrypt-proxy
+sudo systemctl start dnscrypt-proxy
+systemctl status dnscrypt-proxy
 ```
 
-`/etc/dnscrypt-proxy/dnscrypt-proxy.toml`
+```
+sudo nano /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+```
 
 
 >server_names = ['cloudflare']  
