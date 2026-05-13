@@ -6,7 +6,7 @@
 - sicherheit max
   - settings > privacy & security > strict
 - tracking protection
-  - settings → privacy & security
+  - settings → privacy & security > strict
 
 
 
