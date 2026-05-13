@@ -12,11 +12,6 @@
 
 
 
-
-
-
-
-
 # ADD ONS
 - ublock
 - malwarebytes
@@ -29,8 +24,10 @@
   - privacy.resistFingerprinting = true
 - webrtc
   - media.peerconnection.enabled = false
-
-
+- telemetry
+  - toolkit.telemetry.enabled = false
+  - datareporting.healthreport.uploadEnabled = false
+  - app.shield.optoutstudies.enabled = false
 
 
 
