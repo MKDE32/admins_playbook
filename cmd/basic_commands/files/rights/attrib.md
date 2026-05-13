@@ -1,10 +1,16 @@
 # EXAMPLE
 ```
-attrib bla.txt
+attrib [+R|-R] [+A|-A] [+S|-S] [+H|-H] [Datei/Ordner] [/S] [/D]
 ```
 
 # FLAGS
-`-r`        remove read only attribute  
-`-s`        remove system attribute  
-`+H`        versteckt eine Datei  
-`-R`        deaktiviert Schreibschutz einer Datei  
+| Flag | Bedeutung                 |
+| ---- | ------------------------- |
+| `+R` | Schreibgeschützt setzen   |
+| `-R` | Schreibschutz entfernen   |
+| `+H` | Verstecken                |
+| `-H` | Sichtbar machen           |
+| `+S` | Als Systemdatei markieren |
+| `-S` | Systemattribut entfernen  |
+| `+A` | Archivbit setzen          |
+
