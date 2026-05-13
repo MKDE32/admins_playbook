@@ -2,11 +2,11 @@
 - sicherheit max
   - settings > privacy & security > strict
 - dns over https
-  - Settings → Privacy & Security → DNS over HTTPS
+  - settings → privacy & security → DNS over HTTPS
 - https only
-  - Settings → Privacy & Security → HTTPS-Only Mode
+  - settings → privacy & security → HTTPS-Only Mode
 - tracking protection
-  - Settings → Privacy & Security
+  - settings → privacy & security
 
 
 
