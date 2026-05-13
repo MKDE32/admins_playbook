@@ -31,10 +31,7 @@ echo "nameserver 127.0.0.1" | sudo tee /etc/resolv.conf
 
 
 # FIREWALL
-```
-sudo ufw deny out 53
-sudo ufw deny out 853
-```
+ggf port 53 blocken
 
 
 
