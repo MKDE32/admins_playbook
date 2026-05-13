@@ -1,6 +1,6 @@
 # EXAMPLE
 ```
-attrib [+R|-R] [+A|-A] [+S|-S] [+H|-H] [Datei/Ordner] [/S] [/D]
+attrib -s -h -r /s /d
 ```
 
 # FLAGS
