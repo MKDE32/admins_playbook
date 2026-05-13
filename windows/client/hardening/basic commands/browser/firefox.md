@@ -36,6 +36,7 @@
 
 # ADD ONS
 - ublock
+  - wenn kein noscript dann denke an `3rd-party scripts` deactivate
 - malwarebytes
 - noscript
 - firefox multi-account container
