@@ -1,5 +1,6 @@
 # PROPERTIES
 - sicherheit max
+  - settings > privacy & security > strict
 - dns over https
   - Settings → Privacy & Security → DNS over HTTPS
 - https only
