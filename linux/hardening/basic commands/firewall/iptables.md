@@ -11,9 +11,22 @@ sudo iptables -A INPUT -p tcp --dport 3389 -j ACCEPT
 
 sudo iptables -L -v -n
 
+
+
+# PERSISTENCE OFFLINE
 ```
 sudo sh -c "iptables-save > /etc/iptables.rules"
 
+
+
+
+
+```
+
+
+
+# PERSISTENCE ONLINE
+```
 sudo apt install iptables-persistent
 sudo netfilter-persistent save
 ```
