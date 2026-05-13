@@ -24,10 +24,11 @@
 
 
 
-
-
+# ABOUT:CONFIG
+- fingerprinting resistance
+  - privacy.resistFingerprinting = true
 - webrtc
-
+  - media.peerconnection.enabled = false
 
 
 
