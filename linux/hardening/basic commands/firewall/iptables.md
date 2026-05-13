@@ -12,10 +12,10 @@ sudo iptables -A INPUT -p tcp --dport 3389 -j ACCEPT
 sudo iptables -L -v -n
 
 ```
+sudo sh -c "iptables-save > /etc/iptables.rules"
+
 sudo apt install iptables-persistent
 sudo netfilter-persistent save
-
-sudo sh -c "iptables-save > /etc/iptables.rules"
 ```
 
 
