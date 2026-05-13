@@ -12,10 +12,6 @@
 
 
 
-# ADD ONS
-- ublock
-- malwarebytes
-- noscript
 
 
 
@@ -36,7 +32,11 @@
 
 
 
-
+# ADD ONS
+- ublock
+- malwarebytes
+- noscript
+- firefox multi-account container
 
 
 
