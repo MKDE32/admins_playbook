@@ -2,6 +2,13 @@
 - sicherheit max
 - dns over https
 - https only
+- tracking protection
+
+
+
+
+
+
 
 
 
@@ -9,6 +16,25 @@
 - ublock
 - malwarebytes
 - noscript
+
+
+
+
+
+- webrtc
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
