@@ -15,10 +15,7 @@ fallback_resolver = ''
 require_dnssec = true  
 require_nolog = true  
 require_nofilter = true
-
-
-127.0.0.1
-
+listen_addresses = ['127.0.0.1:53']
 
 
 ```
