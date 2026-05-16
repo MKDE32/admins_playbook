@@ -4,6 +4,23 @@ netsh interface show interface
 netsh interface set interface "Ethernet" new interface=Public
 netsh interface set interface "Wi-Fi" new interface=Public
 ```
+# DNS OVER HTTPS
+```
+Einstellungen öffnen
+Netzwerk & Internet
+Deinen Adapter auswählen:
+WLAN oder
+Ethernet
+Bei der aktiven Verbindung auf Hardwareeigenschaften bzw. Eigenschaften klicken
+Abschnitt DNS-Serverzuweisung → Bearbeiten
+Von „Automatisch“ auf Manuell
+IPv4 aktivieren
+DNS eintragen, z. B.:
+Bevorzugt: 1.1.1.1
+Alternativ: 1.0.0.1
+Darunter:
+Bevorzugte DNS-Verschlüsselung → Nur verschlüsselt (DNS over HTTPS)
+```
 # SMB V1
 ```
 reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v SMB1
@@ -53,13 +70,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protoc
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server" /v Enabled /t REG_DWORD /d 0 /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client" /v Enabled /t REG_DWORD /d 0 /f
 ```
-# DNS OVER HTTPS
-```
-Einstellungen → Netzwerk & Internet
-Adapter (Ethernet / WLAN)
-DNS-Einstellungen
-„DNS over HTTPS“ → EIN
-```
+
 # IP V6
 ```
 netsh interface teredo set state disabled
