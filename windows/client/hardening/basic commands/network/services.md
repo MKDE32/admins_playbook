@@ -6,11 +6,12 @@ netsh interface set interface "Wi-Fi" new interface=Public
 ```
 # DNS OVER HTTPS
 ```
-Einstellungen öffnen
+netsh dns show global
+Get-DnsClientDohServerAddress
+
+Einstellungen
 Netzwerk & Internet
-Deinen Adapter auswählen:
-WLAN oder
-Ethernet
+WLAN / Ethernet
 Bei der aktiven Verbindung auf Hardwareeigenschaften bzw. Eigenschaften klicken
 Abschnitt DNS-Serverzuweisung → Bearbeiten
 Von „Automatisch“ auf Manuell
