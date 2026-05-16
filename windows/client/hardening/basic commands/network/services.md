@@ -15,10 +15,7 @@ Bei der aktiven Verbindung auf Hardwareeigenschaften bzw. Eigenschaften klicken
 Abschnitt DNS-Serverzuweisung → Bearbeiten
 Von „Automatisch“ auf Manuell
 IPv4 aktivieren
-DNS eintragen, z. B.:
-Bevorzugt: 1.1.1.1
-Alternativ: 1.0.0.1
-Darunter:
+DNS eintragen
 Bevorzugte DNS-Verschlüsselung → Nur verschlüsselt (DNS over HTTPS)
 ```
 # SMB V1
