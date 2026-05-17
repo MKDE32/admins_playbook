@@ -1,7 +1,16 @@
 ```
 Get-Service *diag* | Stop-Service
 Get-Service *diag* | Set-Service -StartupType Disabled
+
+Stop-Service dmwappushservice
+Set-Service dmwappushservice -StartupType Disabled
 ```
+
+
+
+
+
+
 
 ```
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" ^
