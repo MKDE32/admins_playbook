@@ -7,16 +7,14 @@ Einstellungen
 
 Deaktivieren:
 
-Optionale Diagnosedaten  
-Freihand & Eingabeerkennung  
-Personalisierte Erfahrungen  
-Online-Spracherkennung deaktivieren  
+- Optionale Diagnosedaten  
+- Freihand & Eingabeerkennung  
+- Personalisierte Erfahrungen  
+
+# Online-Spracherkennung deaktivieren  
 ```
 Einstellungen
  → Datenschutz & Sicherheit
    → Spracherkennung
-```
-Dann:
-```
 "Online-Spracherkennung" = Aus
 ```
