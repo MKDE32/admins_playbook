@@ -1,18 +1,13 @@
-2. Recall deaktivieren
-
-Recall speichert Bildschirm-Snapshots lokal und indexiert sie KI-gestützt.
-
-
-
-Admin-CMD:
+# RECALL
 ```
 dism /Online /Get-Features | findstr /i recall
 dism /Online /Disable-Feature /FeatureName:Recall /NoRestart
 ```
-Prüfen/deaktivieren via DISM
+Prüfen/deaktivieren via DISM  
 reboot
 
-
+# INFO
+Recall speichert Bildschirm-Snapshots lokal und indexiert sie KI-gestützt
 
 
 
