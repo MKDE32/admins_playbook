@@ -1,6 +1,5 @@
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force
-.\hardening.ps1
 ```
 
 
