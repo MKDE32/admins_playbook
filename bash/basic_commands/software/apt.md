@@ -11,16 +11,14 @@ sudo apt upgrade
 ```     
 sudo apt full-upgrade
 ```
-
-
-
-
+## install
 ```
 sudo apt install appname           
 ```
-- install
-
-
+## update package manager
+```
+sudo apt-get install -f       
+```
 
 
 
@@ -34,8 +32,6 @@ sudo apt install appname
 -d        download only
 
 
-
-sudo apt-get install -f        update package manager
 
 
 
