@@ -1,5 +1,5 @@
 ```
-Start-Process powershell.exe -Verb RunAs -ArgumentList "-ExecutionPolicy Bypass -File `"$PWD\hardening.ps1`""
+Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoExit -ExecutionPolicy Bypass -File `"$PWD\hardening.ps1`""
 ```
 
 
