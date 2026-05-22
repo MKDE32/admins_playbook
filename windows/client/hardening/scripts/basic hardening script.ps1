@@ -1,3 +1,12 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\hardening.ps1
+
+
+
+
+
+
+
 # Windows Hardening Script
 # Zweck:
 # - Netzwerkprofil auf "Öffentlich" setzen (fremdes Netzwerk)
