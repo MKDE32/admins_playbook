@@ -1,12 +1,13 @@
+```
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\hardening.ps1
+```
 
 
 
 
 
-
-
+```powershell
 # Windows Hardening Script
 # Zweck:
 # - Netzwerkprofil auf "Öffentlich" setzen (fremdes Netzwerk)
@@ -269,3 +270,5 @@ $reportPath = "$env:USERPROFILE\Desktop\hardening_report.txt"
 $Results | Out-File -FilePath $reportPath -Encoding UTF8
 
 Write-Host "Report gespeichert unter: $reportPath" -ForegroundColor Green
+
+```
