@@ -209,8 +209,17 @@ Run-Step 'SMBv1 deaktivieren' {
 # 10. Gastkonto deaktivieren
 # ------------------------------------------------------------
 Run-Step 'Gastkonto deaktivieren' {
-    net user Gast /active:no | Out-Null
-    net user Guest /active:no | Out-Null
+
+    $guestAccounts = @('Guest','Gast')
+
+    foreach ($account in $guestAccounts) {
+
+        $exists = Get-LocalUser -Name $account -ErrorAction SilentlyContinue
+
+        if ($exists) {
+            Disable-LocalUser -Name $account
+        }
+    }
 }
 
 # ------------------------------------------------------------
