@@ -1,6 +1,4 @@
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force
-
 Start-Process powershell.exe -Verb RunAs -ArgumentList "-ExecutionPolicy Bypass -File `"$PWD\hardening.ps1`""
 ```
 
