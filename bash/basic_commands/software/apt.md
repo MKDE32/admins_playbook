@@ -30,8 +30,8 @@ apt remove appname
 
 
 # FLAGS
--f        fix dependencies  
--d        download only  
+`-f`        fix dependencies  
+`-d`        download only  
 
 
 
