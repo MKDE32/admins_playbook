@@ -19,8 +19,10 @@ sudo apt install appname
 ```
 sudo apt-get install -f       
 ```
-
-
+## uninstall
+```
+apt remove appname
+```
 
 
 
@@ -28,15 +30,14 @@ sudo apt-get install -f
 
 
 # FLAGS
--f        fix dependencies
--d        download only
+-f        fix dependencies  
+-d        download only  
 
 
 
 
 
 
-apt remove appname            uninstall
 
 
 
