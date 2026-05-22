@@ -158,34 +158,44 @@ Run-Step 'Dateiendungen anzeigen' {
 }
 
 # ------------------------------------------------------------
-# 7. Google DNS setzen
+# 7 + 8. Google DNS + DNS-over-HTTPS
 # ------------------------------------------------------------
-Run-Step 'Google DNS konfigurieren' {
+
+Run-Step 'Google DNS + DoH konfigurieren' {
 
     $dnsServers = @('8.8.8.8', '8.8.4.4')
 
-    $adapters = Get-DnsClient | Where-Object {
+    $adapters = @(Get-DnsClient | Where-Object {
         $_.InterfaceAlias -notmatch 'Loopback' -and
         $_.InterfaceOperationalStatus -eq 'Up'
-    }
+    })
 
     foreach ($adapter in $adapters) {
-        Set-DnsClientServerAddress -InterfaceIndex $adapter.InterfaceIndex -ServerAddresses $dnsServers
+
+        Set-DnsClientServerAddress `
+            -InterfaceIndex $adapter.InterfaceIndex `
+            -ServerAddresses $dnsServers
     }
-}
 
-# ------------------------------------------------------------
-# 8. DNS-over-HTTPS konfigurieren
-# ------------------------------------------------------------
-Run-Step 'DNS-over-HTTPS aktivieren' {
+    $dohPath = 'HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers'
 
-    # Google DoH Templates registrieren
-    Add-DnsClientDohServerAddress -ServerAddress '8.8.8.8' -DohTemplate 'https://dns.google/dns-query' -AllowFallbackToUdp $false -AutoUpgrade $true -ErrorAction SilentlyContinue
+    New-Item -Path $dohPath -Force | Out-Null
 
-    Add-DnsClientDohServerAddress -ServerAddress '8.8.4.4' -DohTemplate 'https://dns.google/dns-query' -AllowFallbackToUdp $false -AutoUpgrade $true -ErrorAction SilentlyContinue
+    New-ItemProperty `
+        -Path $dohPath `
+        -Name '8.8.8.8' `
+        -PropertyType String `
+        -Value 'https://dns.google/dns-query' `
+        -Force | Out-Null
 
-    # Aktivieren
-    Set-DnsClientServerAddress -InterfaceAlias '*' -ServerAddresses ('8.8.8.8','8.8.4.4') -ErrorAction SilentlyContinue
+    New-ItemProperty `
+        -Path $dohPath `
+        -Name '8.8.4.4' `
+        -PropertyType String `
+        -Value 'https://dns.google/dns-query' `
+        -Force | Out-Null
+
+    ipconfig /flushdns
 }
 
 # ------------------------------------------------------------
