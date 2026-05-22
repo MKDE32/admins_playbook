@@ -93,12 +93,7 @@ Run-Step 'Netzwerkerkennung deaktivieren' {
 # ------------------------------------------------------------
 Run-Step 'IPv6 Präferenz deaktivieren' {
     # 0x20 bevorzugt IPv4 gegenüber IPv6
-    New-ItemProperty \
-        -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters' \
-        -Name 'DisabledComponents' \
-        -PropertyType DWord \
-        -Value 0x20 \
-        -Force | Out-Null
+    New-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters' -Name 'DisabledComponents' -PropertyType DWord -Value 0x20 -Force | Out-Null
 }
 
 Run-Step 'IPv6 Bindings auf Adaptern deaktivieren' {
