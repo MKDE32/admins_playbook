@@ -100,10 +100,7 @@ Run-Step 'IPv6 Bindings auf Adaptern deaktivieren' {
     $adapters = Get-NetAdapter | Where-Object { $_.Status -eq 'Up' }
 
     foreach ($adapter in $adapters) {
-        Disable-NetAdapterBinding \
-            -Name $adapter.Name \
-            -ComponentID ms_tcpip6 \
-            -ErrorAction SilentlyContinue
+        Disable-NetAdapterBinding -Name $adapter.Name -ComponentID ms_tcpip6 -ErrorAction SilentlyContinue
     }
 }
 
@@ -173,9 +170,7 @@ Run-Step 'Google DNS konfigurieren' {
     }
 
     foreach ($adapter in $adapters) {
-        Set-DnsClientServerAddress \
-            -InterfaceIndex $adapter.InterfaceIndex \
-            -ServerAddresses $dnsServers
+        Set-DnsClientServerAddress -InterfaceIndex $adapter.InterfaceIndex -ServerAddresses $dnsServers
     }
 }
 
@@ -185,19 +180,9 @@ Run-Step 'Google DNS konfigurieren' {
 Run-Step 'DNS-over-HTTPS aktivieren' {
 
     # Google DoH Templates registrieren
-    Add-DnsClientDohServerAddress \
-        -ServerAddress '8.8.8.8' \
-        -DohTemplate 'https://dns.google/dns-query' \
-        -AllowFallbackToUdp $false \
-        -AutoUpgrade $true \
-        -ErrorAction SilentlyContinue
+    Add-DnsClientDohServerAddress -ServerAddress '8.8.8.8' -DohTemplate 'https://dns.google/dns-query' -AllowFallbackToUdp $false -AutoUpgrade $true -ErrorAction SilentlyContinue
 
-    Add-DnsClientDohServerAddress \
-        -ServerAddress '8.8.4.4' \
-        -DohTemplate 'https://dns.google/dns-query' \
-        -AllowFallbackToUdp $false \
-        -AutoUpgrade $true \
-        -ErrorAction SilentlyContinue
+    Add-DnsClientDohServerAddress -ServerAddress '8.8.4.4' -DohTemplate 'https://dns.google/dns-query' -AllowFallbackToUdp $false -AutoUpgrade $true -ErrorAction SilentlyContinue
 
     # Aktivieren
     Set-DnsClientServerAddress -InterfaceAlias '*' -ServerAddresses ('8.8.8.8','8.8.4.4') -ErrorAction SilentlyContinue
@@ -207,11 +192,7 @@ Run-Step 'DNS-over-HTTPS aktivieren' {
 # 9. SMBv1 deaktivieren
 # ------------------------------------------------------------
 Run-Step 'SMBv1 deaktivieren' {
-    Disable-WindowsOptionalFeature \
-        -Online \
-        -FeatureName SMB1Protocol \
-        -NoRestart \
-        -ErrorAction SilentlyContinue | Out-Null
+    Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol -NoRestart -ErrorAction SilentlyContinue | Out-Null
 }
 
 # ------------------------------------------------------------
