@@ -5,6 +5,8 @@ set /p minuten=Nach wie vielen Minuten herunterfahren?
 
 set /a sekunden=%minuten%*60
 
-echo PC wird in %minuten% Minuten heruntergefahren.
+
 shutdown -s -t %sekunden%
+echo PC wird in %minuten% Minuten heruntergefahren.
+timeout /t 10
 ```
