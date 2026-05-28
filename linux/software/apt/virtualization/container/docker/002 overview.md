@@ -7,5 +7,5 @@ sudo docker run hello-world
 ```
 sudo usermod -aG docker $USER
 ```
-restart.
+restart, docker works without sudo then.
 
