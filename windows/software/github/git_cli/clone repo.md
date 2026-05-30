@@ -14,8 +14,9 @@ git add -A
 git commit -m "Initial commit"
 ```
 
-
-
-
+## add remote
+```
+git remote add origin <NEUE-REPO-URL>
+```
 
 
