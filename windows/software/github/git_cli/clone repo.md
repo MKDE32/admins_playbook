@@ -4,6 +4,7 @@
 git clone <OLD-REPO-URL> tmp
 cp -a tmp/. neuer-name/
 rm -rf .git
+git log --oneline
 cd neuer-name
 git init
 ```
