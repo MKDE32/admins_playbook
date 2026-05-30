@@ -2,7 +2,7 @@
 ## clone + rename
 ```
 git clone <OLD-REPO-URL> tmp
-cp -a tmp/. neuer-name/
+cp -a tmp/. new/
 rm -rf .git
 git log --oneline
 cd neuer-name
