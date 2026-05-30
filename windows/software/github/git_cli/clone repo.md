@@ -1,8 +1,8 @@
 # clone without git
 ## clone + rename
 ```
-git clone <OLD-REPO-URL> tmp
-cp -a tmp/. new/
+git clone https://github.com/MKDE32/project-cherry-tree.git cherry
+cp -a cherry/. new/
 rm -rf .git
 git log --oneline
 cd new
@@ -22,7 +22,7 @@ git commit -m "Initial commit"
 
 ## add remote
 ```
-git remote add origin https://github.com/MKDE32/test2.git
+git remote add origin https://github.com/MKDE32/project cherry tree.git
 ```
 
 ## push
