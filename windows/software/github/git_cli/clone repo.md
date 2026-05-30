@@ -16,7 +16,7 @@ git commit -m "Initial commit"
 
 ## add remote
 ```
-git remote add origin <NEUE-REPO-URL>
+git remote add origin https://github.com/MKDE32/test2.git
 ```
 
 ## push
