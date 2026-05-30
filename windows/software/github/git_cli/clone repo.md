@@ -7,6 +7,11 @@ rm -rf tmp
 cd neuer-name
 git init
 ```
+- deletes git
+
+
+
+
 
 ## commit all
 ```
