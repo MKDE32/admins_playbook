@@ -22,5 +22,5 @@ git remote add origin https://github.com/MKDE32/test2.git
 ## push
 ```
 git branch -M main
-git push -u origin main
+git push -f origin main
 ```
