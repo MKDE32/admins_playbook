@@ -23,10 +23,10 @@ sudo apt-get install -f
 ```
 apt remove appname
 ```
-
-
-
-
+## os upgrade
+```
+sudo do-release-upgrade
+```
 
 
 # FLAGS
