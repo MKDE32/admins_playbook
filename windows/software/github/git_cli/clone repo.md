@@ -3,7 +3,7 @@
 ```
 git clone <OLD-REPO-URL> tmp
 cp -a tmp/. neuer-name/
-rm -rf tmp
+rm -rf .git
 cd neuer-name
 git init
 ```
