@@ -19,4 +19,8 @@ git commit -m "Initial commit"
 git remote add origin <NEUE-REPO-URL>
 ```
 
-
+## push
+```
+git branch -M main
+git push -u origin main
+```
