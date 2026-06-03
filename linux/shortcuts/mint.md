@@ -28,10 +28,11 @@ arrow left or arrow rigtt
 change display mode
 
 ```
-ctrl + alt + f2 or f1 or f7
+ctrl + alt + f2
+ctrl + f7
 ```
-- switch to textconsole
-
+- switch to tty
+- switch back to normal
 
 
 
