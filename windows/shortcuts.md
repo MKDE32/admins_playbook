@@ -1,5 +1,15 @@
 # repair
 ```
+ctrl + alt + entf
+```
+restart
+
+```
+ctrl + schift + esc
+```
+taskmgr
+
+```
 win + p
 pfeiltasten
 ```
