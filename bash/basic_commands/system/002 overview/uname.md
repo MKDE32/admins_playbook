@@ -1,0 +1,7 @@
+```
+uname -r        
+```
+kernel version
+
+
+
