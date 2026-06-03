@@ -8,7 +8,7 @@ change display mode
 ```
 win + ctrl + shift + b
 ```
-grafik driver restart
+grafic driver restart
 
 ```
 alt f4
