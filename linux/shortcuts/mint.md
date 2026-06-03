@@ -13,12 +13,13 @@ arrow left or arrow rigtt
 ```
 change display mode
 
-
-
-
 ```
-
+ctrl + alt + f2
 ```
+switch to textconsole
+
+
+
 
 
 ```
