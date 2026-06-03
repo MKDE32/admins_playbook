@@ -13,15 +13,6 @@ example for my laptop
 
 
 
-
-
-
-
-
-
-
-
-
 ```
 win
 display
@@ -37,9 +28,9 @@ arrow left or arrow rigtt
 change display mode
 
 ```
-ctrl + alt + f2
+ctrl + alt + f2 or f1 or f7
 ```
-switch to textconsole
+- switch to textconsole
 
 
 
