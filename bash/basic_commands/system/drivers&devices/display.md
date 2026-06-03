@@ -1,0 +1,4 @@
+# recognize monitors
+```
+xrandr --auto
+```
