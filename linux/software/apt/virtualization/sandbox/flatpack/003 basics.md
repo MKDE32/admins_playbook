@@ -1,19 +1,27 @@
+# install ff
 ```
 flatpak install flathub org.mozilla.firefox
 ```
-install ff
 
 
+
+```
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+
+
+
+# start ff
 ```
 flatpak run org.mozilla.firefox -P
 ```
-start ff
 
 
 
 
 
+# show if ff is used with flat
 ```
 flatpak ps
 ```
-show if ff is flat
