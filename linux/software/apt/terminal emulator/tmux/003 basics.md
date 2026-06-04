@@ -29,13 +29,5 @@ ctrl + b " or split-window -h
 
 
 
-# shortcuts
-
-
-
-
-
-
-
 
 
