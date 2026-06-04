@@ -10,4 +10,7 @@ set -g status on
 
 # Hintergrund der Statusleiste
 set -g status-style bg=red,fg=black
+
+# aktive Pane (das gerade fokussierte Fenster)
+set -g pane-active-border-style fg=red
 ```
