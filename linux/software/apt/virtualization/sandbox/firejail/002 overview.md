@@ -1,0 +1,4 @@
+```
+firejail --help
+```
+help
