@@ -10,8 +10,8 @@ tmux
 tmux attach
 tmux ls
 ```
-
-
+- start
+- show
 
 
 # split screen
