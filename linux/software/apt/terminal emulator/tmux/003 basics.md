@@ -17,14 +17,11 @@ tmux ls
 
 # split screen
 ## vertical
-
-
-## horizontal
 ```
 ctrl + b % or split-window -v
 ```
 
-## vertical
+## horizontal
 ```
 ctrl + b " or split-window -h
 ```
