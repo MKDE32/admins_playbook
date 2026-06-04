@@ -18,28 +18,23 @@ tmux detach-client
 - show
 - go in bg (`ctrl + b d`)
 
+
+
+
+
 # all you need
+```
+sudo apt install xclip
+sudo apt install wl-clipboard
+```
+- for copy with shortcut x11
+- for copy with shortcut wayland
+
+
+
 ```
 tmux set -g mouse on
 ```
-
-
-
-
-
-# split screen
-## vertical
-```
-tmux split-window -v
-```
-(`ctrl + b %`)
-
-## horizontal
-```
-tmux split-window -h 
-```
-(`ctrl + b "`)
-
 
 
 
