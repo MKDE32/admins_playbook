@@ -36,7 +36,7 @@ sudo apt install wl-clipboard
 tmux set -g mouse on
 set -g set-clipboard on
 ```
-
+- save at least this in `~/.tmux.conf`
 
 
 
