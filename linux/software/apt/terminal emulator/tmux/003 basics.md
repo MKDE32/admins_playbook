@@ -27,8 +27,8 @@ tmux detach-client
 sudo apt install xclip
 sudo apt install wl-clipboard
 ```
-- for copy with shortcut x11
-- for copy with shortcut wayland
+- install clipboard x11
+- install clipboard wayland
 
 
 
