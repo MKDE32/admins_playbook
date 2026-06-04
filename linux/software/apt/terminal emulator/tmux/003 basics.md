@@ -10,7 +10,7 @@ tmux kill-server
 ```
 tmux attach
 tmux ls
-ctrl + b d
+tmux detach-client ctrl + b d
 ```
 - start
 - show
@@ -19,12 +19,12 @@ ctrl + b d
 # split screen
 ## vertical
 ```
-ctrl + b % or split-window -v
+tmux split-window -v ctrl + b % or 
 ```
 
 ## horizontal
 ```
-ctrl + b " or split-window -h
+tmux split-window -h ctrl + b " or 
 ```
 
 
