@@ -12,11 +12,11 @@ tmux kill-server
 ```
 tmux attach
 tmux ls
-tmux detach-client ctrl + b d
+tmux detach-client 
 ```
 - start
 - show
-- go in bg
+- go in bg (`ctrl + b d`)
 
 
 
@@ -27,13 +27,13 @@ tmux detach-client ctrl + b d
 ```
 tmux split-window -v
 ```
-or `ctrl + b %`
+(`ctrl + b %`)
 
 ## horizontal
 ```
 tmux split-window -h 
 ```
-or `ctrl + b "`
+(`ctrl + b "`)
 
 
 
