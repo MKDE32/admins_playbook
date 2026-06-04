@@ -9,10 +9,11 @@ tmux
 ```
 tmux attach
 tmux ls
+ctrl + b d
 ```
 - start
 - show
-
+- go in bg
 
 # split screen
 ## vertical
@@ -31,7 +32,7 @@ ctrl + b " or split-window -h
 # shortcuts
 
 
-`ctrl + b d` leave session in background  
+
 
 
 
