@@ -19,14 +19,15 @@ tmux detach-client ctrl + b d
 # split screen
 ## vertical
 ```
-tmux split-window -v ctrl + b % or 
+tmux split-window -v
 ```
+or ctrl + b %
 
 ## horizontal
 ```
-tmux split-window -h ctrl + b " or 
+tmux split-window -h 
 ```
-
+or ctrl + b "
 
 
 
