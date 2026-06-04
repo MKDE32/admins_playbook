@@ -7,7 +7,7 @@ tmux attach
 - from background to foreground
 
 
-
+# show bg sessions
 ```
 tmux ls
 ```
