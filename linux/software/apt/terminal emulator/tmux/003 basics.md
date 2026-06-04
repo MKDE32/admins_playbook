@@ -6,6 +6,8 @@ tmux kill-server
 
 
 
+
+
 # bg sessions
 ```
 tmux attach
@@ -16,18 +18,22 @@ tmux detach-client ctrl + b d
 - show
 - go in bg
 
+
+
+
+
 # split screen
 ## vertical
 ```
 tmux split-window -v
 ```
-or ctrl + b %
+or `ctrl + b %`
 
 ## horizontal
 ```
 tmux split-window -h 
 ```
-or ctrl + b "
+or `ctrl + b "`
 
 
 
