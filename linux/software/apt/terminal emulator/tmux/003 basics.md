@@ -1,6 +1,7 @@
-# start
+# start / stop
 ```
 tmux
+tmux kill-server
 ```
 
 
