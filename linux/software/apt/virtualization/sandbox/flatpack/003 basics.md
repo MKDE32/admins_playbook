@@ -5,7 +5,7 @@ install ff
 
 
 ```
-flatpak run org.mozilla.firefox
+flatpak run org.mozilla.firefox -P
 ```
 start ff
 
