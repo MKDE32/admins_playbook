@@ -2,7 +2,7 @@
 this is a gui for flatpack
 
 
-# install
+# install flatseal
 ```
 flatpak install flathub com.github.tchx84.Flatseal
 ```
@@ -11,5 +11,7 @@ flatpak install flathub com.github.tchx84.Flatseal
 flatpak run com.github.tchx84.Flatseal
 ```
 
-
-
+# install program
+```
+flatpak install flathub org.mozilla.firefox
+```
