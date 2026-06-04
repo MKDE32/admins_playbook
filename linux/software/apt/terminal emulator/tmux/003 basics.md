@@ -1,14 +1,13 @@
 # start tmux
 ```
 tmux
-tmux attach
 ```
 - start
-- from background to foreground
 
 
-# show bg sessions
+# bg sessions
 ```
+tmux attach
 tmux ls
 ```
 
