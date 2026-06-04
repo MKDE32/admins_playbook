@@ -12,7 +12,7 @@ tmux kill-server
 ```
 tmux attach
 tmux ls
-tmux detach-client 
+tmux detach-client
 ```
 - start
 - show
