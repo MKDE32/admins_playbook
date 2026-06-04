@@ -1,8 +1,8 @@
-# start tmux
+# start
 ```
 tmux
 ```
-- start
+
 
 
 # bg sessions
