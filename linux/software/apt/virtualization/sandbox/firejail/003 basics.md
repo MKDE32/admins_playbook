@@ -1,8 +1,9 @@
-firejail --help
-firecfg --help
-
-Programm starten
+```
 firejail Firefox
+```
+start firefox
 
-Info aktuelle jails
+```
 firejail --list
+```
+list jails
