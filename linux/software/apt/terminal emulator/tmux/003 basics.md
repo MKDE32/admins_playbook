@@ -18,6 +18,11 @@ tmux detach-client
 - show
 - go in bg (`ctrl + b d`)
 
+# all you need
+```
+tmux set -g mouse on
+```
+
 
 
 
