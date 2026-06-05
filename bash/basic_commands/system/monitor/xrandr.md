@@ -2,6 +2,19 @@
 ```
 xrandr --auto
 ```
+
+# shows connected monitors
+```
+xrandr --verbose | grep connected
+```
+
+
+
+
+
+
+
+
 # SET MODE
 ```
 xrandr
