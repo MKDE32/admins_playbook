@@ -55,6 +55,29 @@ sudo blkid /dev/sda3
 ```
 
 
+# crypttab
+```
+sudo nano /mnt/etc/crypttab
+cryptroot UUID=DEINE-LUKS-UUID none luks
+```
+
+# chroot
+```
+sudo chroot /mnt
+```
+
+
+# update initram
+```
+update-initramfs -u -k all
+```
+
+# update grub
+```
+update-grub
+```
+
+
 
 
 
