@@ -75,10 +75,11 @@ update-initramfs -u -k all
 # update grub
 ```
 update-grub
+grep GRUB_ENABLE_CRYPTODISK /etc/default/grub
 ```
+>GRUB_ENABLE_CRYPTODISK=y
 
-
-
+if not available try `update-grub` again.
 
 
 
