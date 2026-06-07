@@ -83,8 +83,12 @@ if not available try `update-grub` again.
 
 
 
-
-
+# restart
+```
+grub-install
+exit
+sudo reboot
+```
 
 
 
