@@ -9,8 +9,7 @@
 
 Donations:  
 https://www.patreon.com/cw/MKDE?vanity=MKDE  
-or  
-https://www.paypal.com/pools/c/9pWUj12Djf
+
 
 
 
