@@ -1,13 +1,15 @@
+```
 lsblk
-NAME     MAJ:MIN    RM   SIZE    RO   TYPE    MOUNTPOINT
-sda      8:0        0    512G    0    disk    
--sda1    8:1        0      1G    0    part    /boot
-sdb      8:16       0      IT    0    disk
--sdb1    8:17       0    128G    0    part
-blabla   ....
+```
+>NAME     MAJ:MIN    RM   SIZE    RO   TYPE    MOUNTPOINT  
+sda      8:0        0    512G    0    disk  
+-sda1    8:1        0      1G    0    part    /boot  
+sdb      8:16       0      IT    0    disk  
+-sdb1    8:17       0    128G    0    part  
+blabla   ....  
 
 
-
+# reminder
 a. NAME - Device names of the blocks. In this example, the device names are the existing sda drive and sda1 partition plus the new sdb hard drive and a newly formatted sdb1 partition.
 
 b. MAJ:MIN - Major and minor code numbers for the device:
