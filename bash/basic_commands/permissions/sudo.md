@@ -1,3 +1,16 @@
+# overview
+```
+sudo -l
+```
+list what you’re allowed to run
+
+
+
+
+
+
+
+
 # switch to root
 | Command       | User becomes | Password used     | Login shell | Loads root env | HOME becomes `/root` | Changes directory | Keeps user env |
 |--------------|-------------|------------------|-------------|----------------|----------------------|-------------------|----------------|
