@@ -1,13 +1,18 @@
 
 # BASIC COMMANDS
-
+```
 oobe\msoobe
+```
 -> Launch OOBE wizard manually
 
+```
 oobe\msoobe /f
+```
 -> Force OOBE to run again
 
+```
 oobe\msoobe /a
+```
 -> Activate Windows (legacy, not always used)
 
 
@@ -43,8 +48,9 @@ Ctrl + Shift + F3
 -> Reboot into Audit Mode (no command needed)
 
 ## Or via command:
+```
 sysprep /audit /reboot
-
+```
 -> Boots into Audit Mode
 -> Used for customization before user setup
 
@@ -55,14 +61,18 @@ sysprep /audit /reboot
 
 
 # SYSPREP (RELATED TO OOBE)
-
+```
 sysprep /oobe /reboot
+```
 -> Boot into OOBE on next start
-
+```
 sysprep /oobe /shutdown
+```
 -> Prepare system and shut down for imaging
 
+```
 sysprep /generalize /oobe /shutdown
+```
 -> Remove system-specific data (SID reset) + OOBE
 -> Used for cloning / deployment
 
@@ -74,14 +84,16 @@ sysprep /generalize /oobe /shutdown
 
 
 # USER CREATION (SETUP WORKAROUND)
-
+```
 Shift + F10
+```
 -> Open CMD during OOBE
 
 ## Then:
+```
 net user admin password /add
 net localgroup administrators admin /add
-
+```
 -> Create local admin account manually
 
 
@@ -91,5 +103,5 @@ net localgroup administrators admin /add
 
 # IMPORTANT PATH
 
-C:\Windows\System32\oobe\
+`C:\Windows\System32\oobe`
 -> Contains OOBE-related executables
