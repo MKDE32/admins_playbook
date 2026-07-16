@@ -17,16 +17,16 @@ nmcli connection up <NAME>
 
 # add proxy dns server
 ```
-nmcli connection modify <NAME> proxy.method manual
-nmcli connection modify <NAME> proxy.http 192.168.1.100:8080
-nmcli connection modify <NAME> proxy.https 192.168.1.100:8080
-nmcli connection up <NAME>
+nmcli connection show
+sudo nmcli connection modify "FRITZ!Box 6670 LM" ipv4.ignore-auto-dns yes
+sudo nmcli connection modify "FRITZ!Box 6670 LM" ipv4.dns "127.0.0.1"
+sudo nmcli connection down "FRITZ!Box 6670 LM"
+sudo nmcli connection up "FRITZ!Box 6670 LM"
 ```
 
 # using gui dns again
 ```
-sudo nmcli connection show
-nmcli connection modify '<NAME>' ipv4.ignore-auto-dns no
-nmcli connection modify '<NAME>' ipv4.dns ""
-nmcli connection up '<NAME>'
+sudo nmcli connection modify "FRITZ!Box 6670 LM" ipv4.ignore-auto-dns no
+sudo nmcli connection down "FRITZ!Box 6670 LM"
+sudo nmcli connection up "FRITZ!Box 6670 LM"
 ```
