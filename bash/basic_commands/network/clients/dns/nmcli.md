@@ -15,9 +15,13 @@ nmcli connection modify <NAME> ipv4.ignore-auto-dns yes
 nmcli connection up <NAME>
 ```
 
-
-
-
+# add proxy dns server
+```
+nmcli connection modify <NAME> proxy.method manual
+nmcli connection modify <NAME> proxy.http 192.168.1.100:8080
+nmcli connection modify <NAME> proxy.https 192.168.1.100:8080
+nmcli connection up <NAME>
+```
 
 
 
