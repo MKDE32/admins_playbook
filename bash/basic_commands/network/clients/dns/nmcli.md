@@ -23,9 +23,10 @@ nmcli connection modify <NAME> proxy.https 192.168.1.100:8080
 nmcli connection up <NAME>
 ```
 
-
-
-
-
-
-
+# using gui dns again
+```
+sudo nmcli connection show
+nmcli connection modify '<NAME>' ipv4.ignore-auto-dns no
+nmcli connection modify '<NAME>' ipv4.dns ""
+nmcli connection up '<NAME>'
+```
