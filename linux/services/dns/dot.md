@@ -1,3 +1,18 @@
+# set global
+```
+sudo nano /etc/systemd/resolved.conf
+```
+>DNS=8.8.8.8 1.1.1.1
+>DNSOverTLS=yes
+
+```
+sudo systemctl restart systemd-resolved
+resolvectl status
+```
+
+
+
+
 # set wlan
 ```
 nmcli connection show
@@ -11,7 +26,8 @@ sudo systemctl restart systemd-resolved
 
 
 
-
-
-
-
+# test dnssec
+```
+dig google.com +dnssec
+```
+>flags: qr rd ra ad;
