@@ -30,4 +30,20 @@ sudo systemctl restart systemd-resolved
 ```
 dig google.com +dnssec
 ```
->flags: qr rd ra ad;
+>flags: ... ad ...;
+
+oder
+
+```
+dig @1.1.1.1 dnssec-failed.org
+```
+>status: SERVFAIL
+EDE: 9 (DNSKEY Missing): (no SEP matching the DS found for dnssec-failed.org.)
+
+
+
+
+
+
+
+
