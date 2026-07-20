@@ -1,4 +1,4 @@
-# configuring network manager
+# set wlan
 ```
 nmcli connection show
 sudo nmcli connection modify "FRITZ!Box 6670 LM" ipv4.ignore-auto-dns yes
