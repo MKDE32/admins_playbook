@@ -28,7 +28,7 @@ sudo systemctl restart systemd-resolved
 
 # test dnssec
 ```
-dig google.com +dnssec
+dig @1.1.1.1 cloudflare.com +dnssec
 ```
 >flags: ... ad ...;
 
