@@ -46,10 +46,10 @@ EDE: 9 (DNSKEY Missing): (no SEP matching the DS found for dnssec-failed.org.)
 # test dot
 
 ```
+sudo wireshark
+```
+```
 sudo resolvectl flush-caches
-sudo tcpdump -i any port 53 or port 853
-```
-```
 resolvectl query google.com
 ```
 
