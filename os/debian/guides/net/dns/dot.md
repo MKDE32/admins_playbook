@@ -2,11 +2,11 @@
 ```
 sudo nano /etc/systemd/resolved.conf
 ```
->DNS=8.8.8.8 1.1.1.1
+>DNS=8.8.8.8 1.1.1.1  
 >DNSOverTLS=yes
 
 ```
-sudo systemctl restart systemd-resolved  
+sudo systemctl restart systemd-resolved
 resolvectl status
 ```
 
