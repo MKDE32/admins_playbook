@@ -6,7 +6,7 @@ sudo nano /etc/systemd/resolved.conf
 >DNSOverTLS=yes
 
 ```
-sudo systemctl restart systemd-resolved
+sudo systemctl restart systemd-resolved  
 resolvectl status
 ```
 
