@@ -29,3 +29,8 @@ volumes:
   db_data:
   nextcloud_data:
 ```
+```
+docker compose config
+```
+
+
