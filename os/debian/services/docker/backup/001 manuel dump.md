@@ -5,7 +5,7 @@ docker volume inspect nextcloud_nextcloud_data
 
 docker volume inspect nextcloud_db_data
 ```
-# backup
+# database backup
 ```
 docker compose exec -T db pg_dump \
   -U nextcloud \
@@ -15,7 +15,7 @@ docker compose exec -T db pg_dump \
 ls -lh backups/nextcloud-db.sql
 ```
 
-# restore
+# database restore
 
 ```
 cat backups/nextcloud-db.sql | docker compose exec -T db psql \
