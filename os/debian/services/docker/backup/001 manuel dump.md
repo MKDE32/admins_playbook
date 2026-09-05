@@ -15,6 +15,24 @@ docker compose exec -T db pg_dump \
 ls -lh backups/nextcloud-db.sql
 ```
 
+# nextcloud backup
+```
+docker run --rm \
+  -v nextcloud_nextcloud_data:/source:ro \
+  -v "$PWD/backups":/backup \
+  alpine \
+  tar czf /backup/nextcloud-files.tar.gz -C /source .
+```
+
+
+
+
+
+
+
+
+
+
 # database restore
 
 ```
