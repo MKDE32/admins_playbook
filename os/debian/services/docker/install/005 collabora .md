@@ -30,7 +30,7 @@ docker compose ps
 docker compose logs --tail=30 collabora
 ```
 
-
+then install nextcloud office
 
 
 
