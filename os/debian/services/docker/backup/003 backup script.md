@@ -1,10 +1,13 @@
+# create folder
 ```
 sudo mkdir -p /var/backups/nextcloud
 sudo chown mkde:mkde /var/backups/nextcloud
 sudo chmod 700 /var/backups/nextcloud
+```
+```
 sudo nano /usr/local/sbin/nextcloud-backup
 ```
-
+# the script
 ```
 #!/bin/bash
 
