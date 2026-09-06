@@ -40,21 +40,21 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now nextcloud-backup.timer
 ```
 
-
+# testing
 ```
 systemctl list-timers nextcloud-backup.timer
 ```
 
+```
+sudo systemctl start nextcloud-backup.service
+systemctl status nextcloud-backup.service
+```
 
 
-
-
-
-
-
-
-
-
+# show logs
+```
+sudo journalctl -u nextcloud-backup.service -n 30
+```
 
 
 
