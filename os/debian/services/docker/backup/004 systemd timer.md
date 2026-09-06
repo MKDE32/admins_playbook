@@ -1,3 +1,4 @@
+# create service
 ```
 sudo nano /etc/systemd/system/nextcloud-backup.service
 ```
@@ -14,7 +15,7 @@ ExecStart=/usr/local/sbin/nextcloud-backup
 ```
 
 
-
+# create timer
 ```
 sudo nano /etc/systemd/system/nextcloud-backup.timer
 ```
