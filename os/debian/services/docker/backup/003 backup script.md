@@ -50,15 +50,18 @@ echo "Backup abgeschlossen: $BACKUP_DIR"
 echo "Ende: $(date)"
 ```
 
+```
+sudo chmod 750 /usr/local/sbin/nextcloud-backup
+```
 
+# testing
 
-
-
-
-
-
-
-
+```
+sudo /usr/local/sbin/nextcloud-backup
+```
+```
+sudo ls -lh /var/backups/nextcloud/
+```
 
 
 
