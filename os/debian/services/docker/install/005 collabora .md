@@ -14,7 +14,8 @@ nano ~/nextcloud/compose.yml
     restart: unless-stopped
     environment:
       - username=admin
-      - password=CHANGE_THIS_COLLABORA_PASSWORD
+      - password=DEIN_PASSWORT
+      - aliasgroup1=http://nextcloud:80
       - extra_params=--o:ssl.enable=false --o:ssl.termination=false
     ports:
       - "9980:9980"
