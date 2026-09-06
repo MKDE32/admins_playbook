@@ -34,8 +34,8 @@ docker compose logs --tail=30 collabora
 then install nextcloud office
 
 
-
-
-
-
+# add trusted domain
+```
+docker compose exec nextcloud php occ config:system:set trusted_domains 2 --value=nextcloud
+```
 
