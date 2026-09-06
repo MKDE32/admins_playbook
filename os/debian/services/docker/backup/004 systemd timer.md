@@ -31,3 +31,40 @@ Persistent=true
 WantedBy=timers.target
 ```
 
+# reload systemd
+```
+sudo systemctl daemon-reload
+```
+# enable backup
+```
+sudo systemctl enable --now nextcloud-backup.timer
+```
+
+
+```
+systemctl list-timers nextcloud-backup.timer
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
