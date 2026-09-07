@@ -1,5 +1,12 @@
+# overview
+```
+resolvectl status
+```
 
-
+```
+sudo systemctl enable --now
+systemd-resolved.service
+```
 
 
 
