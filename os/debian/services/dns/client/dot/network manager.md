@@ -24,16 +24,8 @@ sudo nmcli connection modify "CONNECTION" connection.mdns no
 sudo nmcli connection modify "CONNECTION" connection.dns-over-tls yes
 ```
 
-
-
-
-
-
-
-sudo nmcli connection modify "FRITZ!Box 6670 LM" ipv4.dns-priority -42
-
-
-
+# restart
+```
 sudo nmcli connection down "FRITZ!Box 6670 LM"
 sudo nmcli connection up "FRITZ!Box 6670 LM"
 sudo systemctl restart systemd-resolved
