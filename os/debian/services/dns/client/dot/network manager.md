@@ -14,6 +14,19 @@ sudo nmcli connection modify "CONNECTION" ipv4.ignore-auto-dns yes
 ```
 
 
+# deactivate mdns
+```
+sudo nmcli connection modify "CONNECTION" connection.mdns no
+```
+
+# activate dot
+```
+sudo nmcli connection modify "CONNECTION" connection.dns-over-tls yes
+```
+
+
+
+
 
 
 
