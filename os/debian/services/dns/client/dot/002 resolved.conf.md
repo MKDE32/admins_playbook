@@ -26,14 +26,15 @@ sudo systemctl restart systemd-networkd
 sudo systemctl restart systemd-resolved
 ```
 
+```
+sudo systemd-resolve --flush-caches
+
+```
 
 
+```
 
-
-
-
-
-
+```
 
 
 
