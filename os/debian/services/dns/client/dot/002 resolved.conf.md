@@ -9,7 +9,7 @@ systemd-resolved.service
 ```
 
 
-
+# resolved.conf
 `sudo nano /etc/systemd/resolved.conf`
 ```
 [Resolve]
