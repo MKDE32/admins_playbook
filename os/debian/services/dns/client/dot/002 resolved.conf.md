@@ -20,7 +20,6 @@ DNSSEC=yes
 Domain=~.
 ```
 
-
 ```
 sudo systemctl restart systemd-networkd
 sudo systemctl restart systemd-resolved
@@ -28,12 +27,11 @@ sudo systemctl restart systemd-resolved
 
 ```
 sudo systemd-resolve --flush-caches
-
 ```
 
-
 ```
-
+resolvectl dns
+resolvectl dnsovertls
 ```
 
 
