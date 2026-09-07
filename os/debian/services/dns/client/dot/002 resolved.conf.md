@@ -19,16 +19,16 @@ DNSOverTLS=yes
 DNSSEC=yes
 Domain=~.
 ```
-
+# restart
 ```
 sudo systemctl restart systemd-networkd
 sudo systemctl restart systemd-resolved
 ```
-
+# flush dns
 ```
 sudo systemd-resolve --flush-caches
 ```
-
+# test
 ```
 resolvectl dns
 resolvectl dnsovertls
