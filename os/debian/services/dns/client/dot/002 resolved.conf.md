@@ -16,7 +16,7 @@ sudo nano /etc/systemd/resolved.conf
 DNS=
 FallbackDNS=
 DNSOverTLS=yes
-DNSSEC=
+DNSSEC=yes
 Domain=~.
 ```
 
